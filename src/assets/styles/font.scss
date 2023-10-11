@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Khand:wght@300;400;500;600;700&display=swap');
+
+$font-14: 0.875rem;
+$font-16: 1rem;
+$font-18: 1.125rem;
+$font-20: 1.25rem;
+$font-22: 1.375rem;
+$font-24: 1.5rem;
+$font-28: 1.75rem;
+$font-30: 1.875rem;
+$font-32: 2rem;
+$font-34: 2.125rem;
+$font-36: 2.25rem;
+
+@mixin font-14-normal-400 {
+  font-size: $font-14;
+  line-height: normal;
+  font-weight: 400;
+}
