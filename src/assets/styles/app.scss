@@ -1,0 +1,10 @@
+@import url(/src/assets/styles/color.scss);
+
+body {
+  background-color: $color-primary-black;
+}
+
+#app {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
