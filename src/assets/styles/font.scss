@@ -12,8 +12,52 @@ $font-32: 2rem;
 $font-34: 2.125rem;
 $font-36: 2.25rem;
 
+.yellow {
+  color: $color-primary-yellow;
+}
+
+.black {
+  color: $color-primary-white;
+}
+
 @mixin font-14-normal-400 {
   font-size: $font-14;
   line-height: normal;
   font-weight: 400;
+}
+
+@mixin font-16-normal-400 {
+  font-size: $font-16;
+  line-height: normal;
+  font-weight: 400;
+}
+
+@mixin font-16-27-400 {
+  font-size: $font-16;
+  line-height: 1.6875rem;
+  font-weight: 400;
+}
+
+@mixin font-18-normal-400 {
+  font-size: $font-18;
+  line-height: normal;
+  font-weight: 400;
+}
+
+@mixin font-18-normal-500 {
+  font-size: $font-18;
+  line-height: normal;
+  font-weight: 500;
+}
+
+@mixin font-18-normal-700 {
+  font-size: $font-18;
+  line-height: normal;
+  font-weight: 700;
+}
+
+@mixin font-32-40-700 {
+  font-size: $font-32;
+  line-height: 2.5rem;
+  font-weight: 700;
 }
