@@ -53,6 +53,13 @@
 
           <div class="home-3-item-wrapper">
             <div class="home-3-item">
+              <lord-icon
+                src="https://cdn.lordicon.com/kyujflem.json"
+                trigger="loop"
+                delay="1250"
+                colors="primary:#f7f7ff,secondary:#ffba49"
+                style="width:max(100px);height:max(100px)">
+              </lord-icon>
 
               <div class="home-3-item-text">
                 <h3 class="home-item-header">The Intersection of <br>
@@ -64,8 +71,44 @@
               </div>
             </div>
 
-            <div class="home-3-item"></div>
-            <div class="home-3-item"></div>
+            <div class="home-3-item">
+              <lord-icon
+                src="https://cdn.lordicon.com/kyujflem.json"
+                trigger="loop"
+                delay="1250"
+                colors="primary:#f7f7ff,secondary:#ffba49"
+                style="width:max(100px);height:max(100px)">
+              </lord-icon>
+
+              <div class="home-3-item-text">
+                <h3 class="home-item-header">The Intersection of <br>
+                Design and Code
+                </h3>
+
+                <p class="home-item-content">Despite my design focus, exposure to diverse technical subjects, including Front-End development, enriches my capabilities in product design and development.                  
+                </p>
+              </div>
+            </div>
+
+            <div class="home-3-item">
+              <lord-icon
+                src="https://cdn.lordicon.com/kyujflem.json"
+                trigger="loop"
+                delay="1250"
+                colors="primary:#f7f7ff,secondary:#ffba49"
+                style="width:max(100px);height:max(100px)">
+              </lord-icon>
+
+              <div class="home-3-item-text">
+                <h3 class="home-item-header">The Intersection of <br>
+                Design and Code
+                </h3>
+
+                <p class="home-item-content">Despite my design focus, exposure to diverse technical subjects, including Front-End development, enriches my capabilities in product design and development.                  
+                </p>
+              </div>
+            </div>
+            
           </div>
         </section>
       </section>
@@ -98,10 +141,14 @@ export default {
 }
 
 window.addEventListener('scroll', function() {
-  if (window.scrollY >= 75) {
-    document.querySelector('.home-2-wrapper').classList.add('scrolled');
-  } else {
-    document.querySelector('.home-2-wrapper').classList.remove('scrolled');
+  // Get the current scroll position.
+  var scrollY = window.scrollY;
+  document.querySelector('.home-2-wrapper').style.left = (scrollY * -0.5) + 'px';
+
+  // Keep the `.home-2-wrapper` element located at `left = -75px` when the user scrolls to the top of the page.
+  if (scrollY === 0) {
+    document.querySelector('.home-2-wrapper').style.left = '-75px';
   }
+  
 });
 </script>

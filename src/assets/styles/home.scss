@@ -5,16 +5,13 @@ nav {
   z-index: 10;
 }
 
-.home {
-  overflow-x: hidden;
-}
-
 .section-wrapper {
   display: flex;
   flex-direction: column;
   height: auto;
 
   justify-content: center;
+  overflow-x: hidden;
 }
 
 /* home-1 */
@@ -129,7 +126,7 @@ button {
   @include flex-row;
   align-items: center;
   justify-content: space-between;
-  gap: min(1.5rem);
+  gap: clamp(1.5rem, 20px, 100rem);
 
   width: 100vw;
   margin: 0 auto;
@@ -137,8 +134,8 @@ button {
   padding-top: 96px;
 
   position: relative;
-  left: -75px;
-  transform: translateX(50px);
+  left: -120px;
+  transform: translateX(0);
   transition: transform 0.3s ease-out;
 }
 
