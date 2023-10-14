@@ -144,6 +144,64 @@ button {
 }
 
 /* home-3 */
+.home-3-header {
+  font-family: 'Khand', sans-serif;
+  @include font-40-60-600;
+
+  text-align: center;
+}
+
+.home-item-header {
+  @include font-22-33-600;
+  text-align: center;
+}
+
+.home-item-content {
+  @include font-16-24-400;
+  color: $color-ln-70;
+
+  text-align: center;
+}
+
+.home-3-item-text {
+  @include flex-column;
+  gap: 16px;
+
+  max-width: 351px; 
+}
+
+.home-3-item {
+  @include flex-column;
+  gap: 36px;
+
+  background: rgba(42, 44, 48, 0.35);
+
+  padding: 48px 31px;
+  border: 2px solid $color-dn-100;
+  border-radius: 6px;
+
+  max-width: 413px;
+}
+
+.gap-1-line {
+  gap: 69px;
+}
+
+.home-3-item-wrapper {
+  @include flex-row;
+  justify-content: space-between;
+  gap: min(21px);
+
+  max-width: 1280px;
+}
+
+.home-3-wrapper {
+  @include flex-column;
+  min-height: 603.75px;
+  gap: min(72px);
+
+  padding-top: 144px;
+}
 
 /* responsive */
 @media screen and (min-width: 1323px) and (max-width: 1920px) {

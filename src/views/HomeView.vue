@@ -49,12 +49,12 @@
 
       <section class="home-3">
         <section class="home-3-wrapper">
-          <h2 class="home-3-header">When Design Meet Code: Crafting Digital Magic</h2>
+          <h2 class="home-3-header">When <span class=" home-3-header yellow">Design Meet Code</span>: <br> Crafting Digital Magic</h2>
 
           <div class="home-3-item-wrapper">
             <div class="home-3-item">
               <lord-icon
-                src="https://cdn.lordicon.com/kyujflem.json"
+                src="https://cdn.lordicon.com/zopinftn.json"
                 trigger="loop"
                 delay="1250"
                 colors="primary:#f7f7ff,secondary:#ffba49"
@@ -63,15 +63,14 @@
 
               <div class="home-3-item-text">
                 <h3 class="home-item-header">The Intersection of <br>
-                Design and Code
-                </h3>
+                Design and Code</h3>
 
                 <p class="home-item-content">Despite my design focus, exposure to diverse technical subjects, including Front-End development, enriches my capabilities in product design and development.                  
                 </p>
               </div>
             </div>
 
-            <div class="home-3-item">
+            <div class="home-3-item gap-1-line">
               <lord-icon
                 src="https://cdn.lordicon.com/kyujflem.json"
                 trigger="loop"
@@ -81,9 +80,7 @@
               </lord-icon>
 
               <div class="home-3-item-text">
-                <h3 class="home-item-header">The Intersection of <br>
-                Design and Code
-                </h3>
+                <h3 class="home-item-header">Not Just Click & Drag Pixel</h3>
 
                 <p class="home-item-content">Despite my design focus, exposure to diverse technical subjects, including Front-End development, enriches my capabilities in product design and development.                  
                 </p>
@@ -92,7 +89,7 @@
 
             <div class="home-3-item">
               <lord-icon
-                src="https://cdn.lordicon.com/kyujflem.json"
+                src="https://cdn.lordicon.com/yafmbxkd.json"
                 trigger="loop"
                 delay="1250"
                 colors="primary:#f7f7ff,secondary:#ffba49"
@@ -100,9 +97,7 @@
               </lord-icon>
 
               <div class="home-3-item-text">
-                <h3 class="home-item-header">The Intersection of <br>
-                Design and Code
-                </h3>
+                <h3 class="home-item-header">Intricate IT, Graphic Design, and UX Connections</h3>
 
                 <p class="home-item-content">Despite my design focus, exposure to diverse technical subjects, including Front-End development, enriches my capabilities in product design and development.                  
                 </p>
@@ -143,11 +138,11 @@ export default {
 window.addEventListener('scroll', function() {
   // Get the current scroll position.
   var scrollY = window.scrollY;
-  document.querySelector('.home-2-wrapper').style.left = (scrollY * -0.5) + 'px';
+  document.querySelector('.home-2-wrapper').style.left = (scrollY * -0.45) + 'px';
 
   // Keep the `.home-2-wrapper` element located at `left = -75px` when the user scrolls to the top of the page.
   if (scrollY === 0) {
-    document.querySelector('.home-2-wrapper').style.left = '-75px';
+    document.querySelector('.home-2-wrapper').style.left = '-35px';
   }
   
 });
