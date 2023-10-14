@@ -11,7 +11,7 @@ nav {
 }
 
 h1 {
-  @include font-32-40-700;
+  @include font-32-48-700;
 }
 
 .hero-content {
@@ -48,14 +48,11 @@ button {
   z-index: 3;
 }
 
-.hero-filler {
-  max-height: 100%;
-  width: auto;
-}
-
 .home-1-heroes-wrapper-0 {
   @include flex-row;
   justify-content: space-between;
+
+  align-items: flex-end;
 
   margin: 0 auto;
   max-width: 1280px;
@@ -63,12 +60,13 @@ button {
   width: calc(100vw - 3rem);
 }
 
+// image absolute
 .background-image-hero {
   position: absolute;
   display: block;
   width: 100%;
   height: auto;
-  top: calc(176px + 5%);
+  top: calc(144px + 5%);
 
   z-index: 0;
 }
@@ -78,25 +76,47 @@ button {
   display: block;
   width: 100%;
   height: auto;
-  top: calc(199px + 5%);
+  top: calc(164px + 5%);
 
   z-index: 2;
 }
 
-.hero-image-hero {
-  position: absolute;
-  display: block;
-  height: calc(100vh - 151px);
-  width: auto;
-  right: 310px;
-
-  z-index: 1;
-  bottom: 0;
-}
-
 .home-1-wrapper {
-  height: calc(100vh - 79px);
+  height: calc(63.74vh);
   width: auto;
+  top: 0;
 
   @include flex-column;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.hero-image {
+  z-index: 1;
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: auto;
+
+  top: 0;
+  right: min(1.5rem);
+}
+
+.hero-filler {
+  height: 41px;
+  width: auto;
+}
+
+// responsive
+
+@media screen and (min-width: 1323px) and (max-width: 1920px) {
+  .hero-image {
+    right: clamp(2rem, 597px, 20rem);
+  }
+}
+
+@media screen and (min-width: 1921px) {
+  .hero-image {
+    right: clamp(18rem, 635px, 300rem);
+  }
 }

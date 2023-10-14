@@ -26,12 +26,12 @@
               
               <button class="view-projects white"><router-link to="/">View Projects</router-link></button>
             </div>
+
+            <span class="hero-filler"></span>
           </div>
-          <div class="hero-filler"></div>
         </div>
 
-        <img src="../assets/images/home/section1/heroimage.svg" alt="hero-image" class="hero-image-hero">
-        
+        <img src="../assets/images/home/section1/heroimage1.svg" alt="hero image" class="hero-image">
       </div>
     </section>
 
@@ -47,7 +47,6 @@
 </style>
 
 <script>
-
 import Navbar from '@/components/NavbarView.vue'
 
 export default {
