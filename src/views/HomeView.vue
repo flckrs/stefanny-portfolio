@@ -175,6 +175,82 @@
           </div>
         </div>
       </section>
+
+      <section class="home-5">
+        <div class="home-5-wrapper">
+          
+          <div class="home-5-header">
+            <h4 class="home-5-subheader yellow">SELECTED PROJECTS</h4>
+
+            <div class="home-5-header-wrapper">
+              <h2 class="home-5-header-text">Project</h2>
+              <img src="../assets/images/home/section5/circle.svg" alt="circle image filler" class="circle-filler">
+              <h2 class="home-5-header-text">Case Studies</h2>
+              <img src="../assets/images/home/section5/circle.svg" alt="circle image filler" class="circle-filler">
+              <h2 class="home-5-header-text">Work</h2>
+            </div>
+          </div>
+
+          <div class="home-5-portfolio-item-wrapper">
+            <div class="home-5-portfolio-item">
+              <div class="home-5-portfolio-item-wrapper-0">
+                <div class="home-5-portfolio-text-wrapper">
+                  <h4 class="portfolio-year">2022 - 2023</h4>
+                  <h3 class="portfolio-title">Automated CV Screening System for Human Resource</h3>
+                  <strong class="portfolio-role">UI / UX Designer</strong>
+                </div>
+
+                <button class="view-case-study-button">View case study</button>
+              </div>
+
+              <img src="../assets/images/home/section5/portfolioImg01.svg" alt="product portfolio design preview" class="portfolio-frontpage-picture">
+            </div>
+
+            <div class="home-5-portfolio-item">
+              <div class="home-5-portfolio-item-wrapper-0">
+                <div class="home-5-portfolio-text-wrapper">
+                  <h4 class="portfolio-year">2022</h4>
+                  <h3 class="portfolio-title">Streaming Service App - OTT Features Development</h3>
+                  <strong class="portfolio-role">UI / UX Designer</strong>
+                </div>
+
+                <button class="view-case-study-button">View case study</button>
+              </div>
+
+              <img src="../assets/images/home/section5/portfolioImg02.svg" alt="product portfolio design preview" class="portfolio-frontpage-picture">
+            </div>
+
+            <div class="home-5-portfolio-item">
+              <div class="home-5-portfolio-item-wrapper-0">
+                <div class="home-5-portfolio-text-wrapper">
+                  <h4 class="portfolio-year">2021 - 2023</h4>
+                  <h3 class="portfolio-title">Other Projects</h3>
+                  <strong class="portfolio-role">Product Designer, UI / UX Designer, Front-End Developer</strong>
+                </div>
+
+                <button class="view-case-study-button">View projects</button>
+              </div>
+
+              <img src="../assets/images/home/section5/portfolioImg03.svg" alt="product portfolio design preview" class="portfolio-frontpage-picture">
+            </div>
+
+            <div class="home-5-portfolio-item no-margin-bottom">
+              <div class="home-5-portfolio-item-wrapper-0">
+                <div class="home-5-portfolio-text-wrapper">
+                  <h4 class="portfolio-year">COMING SOON</h4>
+                  <h3 class="portfolio-title">UI / UX in Virtual Reality Personal Project</h3>
+                  <strong class="portfolio-role">UI / UX Designer</strong>
+                </div>
+
+                <button class="view-case-study-button invisible">View case study</button>
+              </div>
+
+              <img src="../assets/images/home/section5/portfolioImg04.svg" alt="product portfolio design preview" class="portfolio-frontpage-picture">
+            </div>
+          </div>
+
+        </div>
+      </section>
     </section>
 
     <section class="home-3">
@@ -206,7 +282,7 @@ export default {
 window.addEventListener('scroll', function() {
   // Get the current scroll position.
   var scrollY = window.scrollY;
-  document.querySelector('.home-2-wrapper').style.left = (scrollY * -0.45) + 'px';
+  document.querySelector('.home-2-wrapper').style.left = (scrollY * -0.35) + 'px';
 
   // Keep the `.home-2-wrapper` element located at `left = -75px` when the user scrolls to the top of the page.
   if (scrollY === 0) {

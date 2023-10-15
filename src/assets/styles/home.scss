@@ -240,26 +240,26 @@ button {
 
 .yr-rt {
   right: -5.5px;
-  top: -5px;
+  top: -5.5px;
 }
 
 .yr-rb {
   right: -5.5px;
-  bottom: -5px;
+  bottom: -5.5px;
 }
 
 .yr-lt {
   left: -5.5px;
-  top: -5px;
+  top: -5.5px;
 }
 
 .yr-lb {
   left: -5.5px;
-  bottom: -5px;
+  bottom: -5.5px;
 }
 
 .home-4-item-header {
-  @include font-22-normal-600;
+  @include font-22-normal-500;
 }
 
 .home-4-item-text {
@@ -317,7 +317,7 @@ button {
 }
 
 .curve-04 {
-  top: 104.92px;
+  top: 98.72px;
 }
 
 .home-4-item-wrapper {
@@ -344,6 +344,97 @@ button {
 
   background-color: #151618;
 }
+
+/* home-5 */
+.home-5-subheader {
+  @include font-16-normal-400;
+  letter-spacing: 5.92px;
+}
+
+.home-5-header-text {
+  @include font-36-normal-800;
+}
+
+.home-5-header-wrapper {
+  @include normal-flex-space-between;
+  max-width: 571px;
+  gap: 24px
+}
+
+.home-5-header {
+  @include normal-flex-column-left;
+  gap: 18px;
+
+  max-width: 1280px;
+  margin: 0 auto;
+
+  margin-bottom: 56px;
+}
+
+.portfolio-year {
+  @include font-16-normal-400;
+  letter-spacing: 5.92px;
+}
+
+.portfolio-title {
+  @include font-24-36-700;
+  color: $color-ln-20;
+}
+
+.portfolio-role {
+  @include font-16-27-400;
+  color: $color-dn-10;
+}
+
+.home-5-portfolio-text-wrapper {
+  @include normal-flex-column-left;
+  gap: 12px;
+
+  max-width: 396px;
+}
+
+.view-case-study-button {
+  @include case-study-button;
+}
+
+.home-5-portfolio-item-wrapper-0 {
+  @include normal-flex-column-left;
+  min-height: 343px;
+  justify-content: space-between;
+
+  padding-left: 48px;
+}
+
+.portfolio-frontpage-picture {
+  padding-right: 24px
+}
+
+.home-5-portfolio-item {
+  @include normal-flex-space-between;
+  align-items: center;
+
+  padding-top: 24px;
+  padding-bottom: 24px;
+
+  background: $color-dn-170;
+  max-width: 1280px;
+  margin: 0 auto;
+
+  margin-bottom: 36px;
+}
+
+.invisible {
+  display: none;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+
+.home-5-wrapper {
+  margin: 144px auto;
+}
+
 /* responsive */
 @media screen and (min-width: 1323px) and (max-width: 1920px) {
   .hero-image {
