@@ -38,7 +38,7 @@
       </section>
   
       <section class="home-2">
-        <div class="home-2-wrapper">
+        <div class="home-2-wrapper" id='home-2-wrapper'>
           <img src="../assets/images/home/section2/image01.svg" alt="product design screenshot 1" class="home-2-product-image">
           <img src="../assets/images/home/section2/image02.svg" alt="product design screenshot 2" class="home-2-product-image">
           <img src="../assets/images/home/section2/image03.svg" alt="product design screenshot 3" class="home-2-product-image">
@@ -238,7 +238,7 @@
               <div class="home-5-portfolio-item-wrapper-0">
                 <div class="home-5-portfolio-text-wrapper">
                   <h4 class="portfolio-year">COMING SOON</h4>
-                  <h3 class="portfolio-title">UI / UX in Virtual Reality Personal Project</h3>
+                  <h3 class="portfolio-title">UI / UX Design in Virtual Reality Personal Project</h3>
                   <strong class="portfolio-role">UI / UX Designer</strong>
                 </div>
 
@@ -251,11 +251,12 @@
 
         </div>
       </section>
+
+      <section class="home-6">
+        <Pfooter />
+      </section>
     </section>
 
-    <section class="home-3">
-
-    </section>
 
   </div>
 </template>
@@ -270,24 +271,14 @@
 
 <script>
 import Navbar from '@/components/NavbarView.vue';
-
+import Pfooter from '@/components/PfooterView.vue';
 
 export default {
   name: 'HomeView',
   components: {
     Navbar,
+    Pfooter
   },
 }
 
-window.addEventListener('scroll', function() {
-  // Get the current scroll position.
-  var scrollY = window.scrollY;
-  document.querySelector('.home-2-wrapper').style.left = (scrollY * -0.35) + 'px';
-
-  // Keep the `.home-2-wrapper` element located at `left = -75px` when the user scrolls to the top of the page.
-  if (scrollY === 0) {
-    document.querySelector('.home-2-wrapper').style.left = '-35px';
-  }
-  
-});
 </script>

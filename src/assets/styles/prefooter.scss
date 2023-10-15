@@ -1,0 +1,49 @@
+.prefooter-suggestion {
+  @include font-18-normal-400;
+
+  text-align: center;
+  letter-spacing: 6.66px;
+}
+
+.prefooter-cta-button {
+  @include reset-button;
+  @include font-40-normal-700;
+
+  display: block;
+  z-index: 3;
+}
+
+.button-cta-wrapper {
+  display: flex;
+  gap: 6px;
+
+  cursor: pointer;
+  position: relative;
+}
+
+.sign-image {
+  position: absolute;
+  left: 156px;
+  top: -5px;
+  
+  z-index: 1;
+}
+
+.prefooter-text {
+  @include font-20-30-400;
+  color: $color-ln-70;
+
+  text-align: center;
+}
+
+.prefooter-wrapper-cta-wrapper {
+  @include flex-column;
+  gap: 32px;
+}
+
+.prefooter-wrapper-0 {
+  padding-top: 144px;
+  padding-bottom: 112px;
+
+  background: $color-dn-160;
+}
