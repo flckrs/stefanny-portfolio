@@ -255,6 +255,11 @@
       <section class="home-6">
         <Pfooter />
       </section>
+
+      <footer class="home-7">
+        <Footer />
+      </footer>
+      
     </section>
 
 
@@ -272,12 +277,14 @@
 <script>
 import Navbar from '@/components/NavbarView.vue';
 import Pfooter from '@/components/PfooterView.vue';
+import Footer from '@/components/FooterView.vue';
 
 export default {
   name: 'HomeView',
   components: {
     Navbar,
-    Pfooter
+    Pfooter,
+    Footer
   },
 }
 
