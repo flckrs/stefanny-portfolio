@@ -63,10 +63,22 @@ $font-40: 2.5rem;
   font-weight: 700;
 }
 
+@mixin font-22-normal-600 {
+  font-size: $font-22;
+  line-height: normal;
+  font-weight: 600;
+}
+
 @mixin font-22-33-600 {
   font-size: $font-22;
   line-height: 2.0625rem;
   font-weight: 600;
+}
+
+@mixin font-24-normal-500 {
+  font-size: $font-24;
+  line-height: normal;
+  font-weight: 500;
 }
 
 @mixin font-32-48-700 {

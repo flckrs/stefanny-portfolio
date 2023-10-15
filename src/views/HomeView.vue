@@ -48,7 +48,7 @@
       </section>
 
       <section class="home-3">
-        <section class="home-3-wrapper">
+        <div class="home-3-wrapper">
           <h2 class="home-3-header">When <span class=" home-3-header yellow">Design Meet Code</span>: <br> Crafting Digital Magic</h2>
 
           <div class="home-3-item-wrapper">
@@ -82,7 +82,7 @@
               <div class="home-3-item-text">
                 <h3 class="home-item-header">Not Just Click & Drag Pixel</h3>
 
-                <p class="home-item-content">Despite my design focus, exposure to diverse technical subjects, including Front-End development, enriches my capabilities in product design and development.                  
+                <p class="home-item-content">My craft blends design strategy, research, innovative thinking, and forward-looking vision, diverging from conventional pixel manipulation.                 
                 </p>
               </div>
             </div>
@@ -99,13 +99,81 @@
               <div class="home-3-item-text">
                 <h3 class="home-item-header">Intricate IT, Graphic Design, and UX Connections</h3>
 
-                <p class="home-item-content">Despite my design focus, exposure to diverse technical subjects, including Front-End development, enriches my capabilities in product design and development.                  
+                <p class="home-item-content">As an IST student and graphic designer, I bring a holistic approach to crafting digital experiences through interconnected IT, graphic design, and UI/UX insights.                  
                 </p>
               </div>
             </div>
             
           </div>
-        </section>
+        </div>
+      </section>
+
+      <section class="home-4">
+        <div class="home-4-wrapper">
+          <div class="home-4-header">
+            <h4 class="home-4-service">What can I do for you?</h4>
+            <div class="yellow-rectangle yr-rt"></div>
+            <div class="yellow-rectangle yr-rb"></div>
+            <div class="yellow-rectangle yr-lb"></div>
+            <div class="yellow-rectangle yr-lt"></div>
+          </div>
+
+          <div class="home-4-item-wrapper">
+
+            <div class="home-4-item-wrapper-0">
+              <img src="../assets/images/home/section4/curve01.svg" alt="background image" class="curve-bg curve-01">
+
+              <div class="home-4-item-wrapper-1">
+                <img src="../assets/images/home/section4/itemicon01.svg" alt="item icon image" class="home-4-item-icon">
+
+                <div class="home-4-item-content-wrapper">
+                  <h3 class="home-4-item-header">Product Design</h3>
+                  <p class="home-4-item-text">Seamlessly bring your product vision to life, guiding it from initial concept to a polished and successful launch.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="home-4-item-wrapper-0">
+              <img src="../assets/images/home/section4/curve02.svg" alt="background image" class="curve-bg curve-02">
+
+              <div class="home-4-item-wrapper-1">
+                <img src="../assets/images/home/section4/itemicon02.svg" alt="item icon image" class="home-4-item-icon">
+
+                <div class="home-4-item-content-wrapper">
+                  <h3 class="home-4-item-header">Design System</h3>
+                  <p class="home-4-item-text">Create flexible, visual guidelines with a scalable design system for your digital touchpoints.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="home-4-item-wrapper-0">
+              <img src="../assets/images/home/section4/curve03.svg" alt="background image" class="curve-bg curve-03">
+
+              <div class="home-4-item-wrapper-1">
+                <img src="../assets/images/home/section4/itemicon03.svg" alt="item icon image" class="home-4-item-icon">
+
+                <div class="home-4-item-content-wrapper">
+                  <h3 class="home-4-item-header">Prototype & Mock-Ups</h3>
+                  <p class="home-4-item-text">Drive innovation with mock-ups and high-fidelity prototypes for your next product.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="home-4-item-wrapper-0">
+              <img src="../assets/images/home/section4/curve04.svg" alt="background image" class="curve-bg curve-04">
+
+              <div class="home-4-item-wrapper-1">
+                <img src="../assets/images/home/section4/itemicon04.svg" alt="item icon image" class="home-4-item-icon">
+
+                <div class="home-4-item-content-wrapper">
+                  <h3 class="home-4-item-header">Front-End Development</h3>
+                  <p class="home-4-item-text">Transform creative ideas into captivating user experiences through seamless Front-End development.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
       </section>
     </section>
 
