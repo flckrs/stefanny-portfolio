@@ -45,6 +45,12 @@ $font-40: 2.5rem;
   font-weight: 400;
 }
 
+@mixin font-16-27-500 {
+  font-size: $font-16;
+  line-height: 1.6875rem;
+  font-weight: 500;
+}
+
 @mixin font-18-normal-400 {
   font-size: $font-18;
   line-height: normal;
@@ -114,6 +120,12 @@ $font-40: 2.5rem;
 @mixin font-24-36-700 {
   font-size: $font-24;
   line-height: 2.25rem;
+  font-weight: 700;
+}
+
+@mixin font-32-normal-700 {
+  font-size: $font-32;
+  line-height: normal;
   font-weight: 700;
 }
 

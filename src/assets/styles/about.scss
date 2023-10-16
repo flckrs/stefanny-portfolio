@@ -55,6 +55,8 @@ nav {
   gap: 32px;
 }
 
+/* about-2 */
+
 .about-2-wrapper {
   width: 100vw;
   height: min(420px);
@@ -81,4 +83,56 @@ nav {
   transform: translateX(-50%);
 
   top: -98px;
+}
+
+/* about-3 */
+.about-3-things-i-hold-on {
+  @include font-18-32-400;
+}
+
+.about-3-values {
+  @include font-32-normal-700;
+}
+
+.about-3-header-wrapper {
+  @include flex-column-left;
+  gap: 12px;
+}
+
+.about-3-item-number {
+  @include font-16-27-400;
+  color: $color-ln-70;
+}
+
+.about-3-item-title {
+  @include font-16-27-500;
+  color: $color-ln-70;
+}
+
+.weight-700 {
+  font-weight: 700;
+}
+
+.about-3-item {
+  display: flex;
+  max-width: 369px;
+  gap: 15px;
+}
+
+.about-3-item-wrapper {
+  @include flex-row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  
+  max-width: 1280px;
+  row-gap: 80px;
+  column-gap: 85px;
+}
+
+.about-3-wrapper {
+  @include flex-column-left;
+  gap: 80px;
+
+  max-width: 1280px;
+  margin: 96px auto;
 }
