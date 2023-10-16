@@ -141,6 +141,14 @@
         </div>
       </div>
     </section>
+
+    <section class="about-7">
+      <Pfooter />
+    </section>
+
+    <section class="about-8">
+      <Footer />
+    </section>
   </div>
 </template>
 
@@ -153,12 +161,16 @@
 </style>
 
 <script>
-import Navbar from '@/components/NavbarView.vue'
+import Navbar from '@/components/NavbarView.vue';
+import Pfooter from '@/components/PfooterView.vue';
+import Footer from '@/components/FooterView.vue';
 
 export default {
   name: 'HomeView',
   components: {
     Navbar,
+    Pfooter,
+    Footer,
   },
 }
 </script>
