@@ -86,11 +86,11 @@ nav {
 }
 
 /* about-3 */
-.about-3-things-i-hold-on {
+small {
   @include font-18-32-400;
 }
 
-.about-3-values {
+h2 {
   @include font-32-normal-700;
 }
 
@@ -135,4 +135,48 @@ nav {
 
   max-width: 1280px;
   margin: 96px auto;
+}
+
+/* about-4 */
+.about-4-tools-design-wrapper {
+  @include flex-row;
+  align-items: flex-start;
+  gap: 16px;
+  row-gap: 28px;
+
+  flex-wrap: wrap;
+}
+
+.about-4-tools-design {
+  @include flex-column-left;
+  gap: 24px;
+  max-width: 530px;
+}
+
+.about-4-tools-dev-wrapper {
+  @include flex-row;
+  align-items: flex-start;
+  gap: 16px;
+  row-gap: 28px;
+
+  flex-wrap: wrap;
+}
+
+.about-4-tools-dev {
+  @include flex-column-left;
+  gap: 24px;
+  max-width: 604px;
+}
+
+.about-4-tools-wrapper {
+  @include flex-row;
+  gap: 146px;
+}
+
+.about-4-wrapper {
+  @include flex-column-left;
+  gap: 16px;
+
+  max-width: 1280px;
+  margin: 0 auto;
 }

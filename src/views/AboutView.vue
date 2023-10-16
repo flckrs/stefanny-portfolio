@@ -68,6 +68,59 @@
         
       </div>
     </section>
+
+    <section class="about-4">
+      <div class="about-4-wrapper">
+        <h2 class="about-4-tools">Some of my tools</h2>
+
+        <div class="about-4-tools-wrapper">
+          <div class="about-4-tools-design">
+            <small class="about-4-header yellow">/ Design</small>
+
+            <div class="about-4-tools-design-wrapper">
+              <img src="../assets/images/about/designtools/designtool01.svg" alt="figma icon" class="design-tools">
+              <img src="../assets/images/about/designtools/designtool02.svg" alt="adobe XD icon" class="design-tools">
+              <img src="../assets/images/about/designtools/designtool03.svg" alt="adobe Photoshop icon" class="design-tools">
+              <img src="../assets/images/about/designtools/designtool04.svg" alt="adobe Illustrator icon" class="design-tools">
+              <img src="../assets/images/about/designtools/designtool05.svg" alt="adobe After Effects icon" class="design-tools">
+              <img src="../assets/images/about/designtools/designtool06.svg" alt="adobe Premiere icon" class="design-tools">
+              <img src="../assets/images/about/designtools/designtool07.svg" alt="adobe Lightroom icon" class="design-tools">
+              <img src="../assets/images/about/designtools/designtool08.svg" alt="Google Meet icon" class="design-tools">
+              <img src="../assets/images/about/designtools/designtool09.svg" alt="Google Drive icon" class="design-tools">
+              <img src="../assets/images/about/designtools/designtool10.svg" alt="jira icon" class="design-tools">
+              <img src="../assets/images/about/designtools/designtool11.svg" alt="google Docs icon" class="design-tools">
+              <img src="../assets/images/about/designtools/designtool12.svg" alt="google Sheets icon" class="design-tools">
+              <img src="../assets/images/about/designtools/designtool13.svg" alt="Behance icon" class="design-tools">
+              <img src="../assets/images/about/designtools/designtool14.svg" alt="Pinterest icon" class="design-tools">
+            </div>
+          </div>
+
+          <div class="about-4-tools-dev">
+            <small class="about-4-header yellow">/ Development</small>
+
+            <div class="about-4-tools-dev-wrapper">
+              <img src="../assets/images/about/designtools/devtools01.svg" alt="vs code icon" class="dev-tools">
+              <img src="../assets/images/about/designtools/devtools02.svg" alt="linus icon" class="dev-tools">
+              <img src="../assets/images/about/designtools/devtools03.svg" alt="html icon" class="dev-tools">
+              <img src="../assets/images/about/designtools/devtools04.svg" alt="css icon" class="dev-tools">
+              <img src="../assets/images/about/designtools/devtools05.svg" alt="sass icon" class="dev-tools">
+              <img src="../assets/images/about/designtools/devtools06.svg" alt="javascript icon" class="dev-tools">
+              <img src="../assets/images/about/designtools/devtools07.svg" alt="vue js icon" class="dev-tools">
+              <img src="../assets/images/about/designtools/devtools08.svg" alt="react icon" class="dev-tools">
+              <img src="../assets/images/about/designtools/devtools09.svg" alt="python icon" class="dev-tools">
+              <img src="../assets/images/about/designtools/devtools10.svg" alt="c icon" class="dev-tools">
+              <img src="../assets/images/about/designtools/devtools11.svg" alt="mysql icon" class="dev-tools">
+              <img src="../assets/images/about/designtools/devtools12.svg" alt="postgre icon" class="dev-tools">
+              <img src="../assets/images/about/designtools/devtools13.svg" alt="insomnia icon" class="dev-tools">
+              <img src="../assets/images/about/designtools/devtools14.svg" alt="docker icon" class="dev-tools">
+              <img src="../assets/images/about/designtools/devtools15.svg" alt="github icon" class="dev-tools">
+              <img src="../assets/images/about/designtools/devtools16.svg" alt="gitlab icon" class="dev-tools">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
