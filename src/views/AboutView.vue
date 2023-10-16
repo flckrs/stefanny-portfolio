@@ -127,6 +127,20 @@
         <img src="../assets/images/about/section5/culture.svg" alt="collection of culture" class="section-5-culture">
       </div>
     </section>
+
+    <section class="about-6">
+      <div class="about-6-wrapper-0">
+        <div class="about-6-wrapper">
+          <h3 class="tagline"><span class="yellow">People</span> craft design</h3>
+          <img src="../assets/images/about/section6/circle.svg" alt="circle image" class="circle-fil">
+          <h3 class="tagline"><span class="yellow">Design</span> molds culture</h3>
+          <img src="../assets/images/about/section6/circle.svg" alt="circle image" class="circle-fil">
+          <h3 class="tagline"><span class="yellow">Culture</span> shapes people</h3>
+
+          <img src="../assets/images/about/section6/bg.svg" alt="background" class="background">
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 

@@ -198,3 +198,36 @@ h2 {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* about-6 */
+
+.tagline {
+  @include font-32-normal-700;
+  font-weight: 600;
+}
+
+.about-6-wrapper {
+  @include flex-row;
+  gap: 24px;
+
+  // padding: 71px 96px;
+  position: relative;
+  // margin: 0 auto;
+  // left: 50%;
+  // top: 50%;
+  // transform: translate(-50%, -50%);
+}
+
+.background {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+
+  z-index: -1;
+}
+
+.about-6-wrapper-0 {
+  @include flex-column;
+  margin-top: 167px;
+  margin-bottom: 167px;
+}
