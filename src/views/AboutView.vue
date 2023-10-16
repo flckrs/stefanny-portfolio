@@ -121,6 +121,12 @@
         </div>
       </div>
     </section>
+
+    <section class="about-5">
+      <div class="about-5-wrapper">
+        <img src="../assets/images/about/section5/culture.svg" alt="collection of culture" class="section-5-culture">
+      </div>
+    </section>
   </div>
 </template>
 

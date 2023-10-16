@@ -180,3 +180,21 @@ h2 {
   max-width: 1280px;
   margin: 0 auto;
 }
+
+.about-5-wrapper {
+  width: 100vw;
+  height: min(943px);
+  
+  color: $color-dn-170;
+  background-image: url(../assets/images/about/section5/section5bg.svg);
+
+  margin: 96px auto;
+  position: relative;
+}
+
+.section-5-culture {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
