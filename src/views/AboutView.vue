@@ -20,6 +20,11 @@
       </div>
     </section>
 
+    <section class="about-2">
+      <div class="about-2-wrapper">
+        <div class="about-2-profile-picture"></div>
+      </div>
+    </section>
   </div>
 </template>
 
