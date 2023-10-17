@@ -81,3 +81,71 @@ nav {
 //   bottom: -6px;
 //   right: -6px;
 // 
+
+.contact-2-header-wrapper {
+
+  @include flex-column-left;
+  gap: 16px;
+
+  small {
+    @include font-16-normal-400;
+    letter-spacing: 5.92px;
+
+    color: $color-dn-20;
+  }
+
+  h3 {
+    @include font-32-48-700;
+    max-width: 413px;
+  }
+}
+
+.contact-2-subheader {
+  @include font-18-normal-700;
+  // font-weight: 600;
+
+  color: $color-yellow-100;
+}
+
+.contact-2-information {
+  @include font-18-normal-700;
+  font-weight: 500;
+
+  color: $color-ln-20;
+}
+
+.contact-2-information-wrapper {
+  @include flex-row;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.contact-2-info-wrapper {
+  @include flex-row;
+  gap: 60px;
+}
+
+.say-hello {
+  position: relative;
+}
+
+.hello-icon {
+  position: absolute;
+  top: -46px;
+  left: 90px;
+}
+
+.contact-2-info {
+  @include flex-column-left;
+  gap: 12px;
+}
+
+.contact-2-contact-info-wrapper {
+  @include flex-column-left;
+  gap: 36px;
+}
+
+.contact-2-left-wrapper {
+  @include flex-column-left;
+  gap: 148px;
+}
