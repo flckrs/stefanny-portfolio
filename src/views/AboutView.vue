@@ -41,7 +41,7 @@
 
           <div class="about-3-item">
             <small class="about-3-item-number">02</small>
-            <p class="about-3-item-title"><strong class="white weight-700">Kaizen.</strong> I believe that there is always room for improvement, no matter how small. I am always learning and looking for new ways to improve the user experience.</p>
+            <p class="about-3-item-title"><strong class="white weight-700">Kaizen.</strong> There is always room for improvement, no matter how big or small. I am always learning and looking for new ways to improve the user experience.</p>
           </div>
 
           <div class="about-3-item">
