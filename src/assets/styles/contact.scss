@@ -2,7 +2,7 @@ nav {
   position: sticky;
   top: 0;
 
-  z-index: 0;
+  z-index: 10;
   width: 100%;
 }
 
@@ -23,7 +23,7 @@ nav {
 
 .curvy-bg {
   position: absolute;
-  top: 6.5px;
+  top: -12px;
   
   left: -125px;
 }
@@ -147,5 +147,121 @@ nav {
 
 .contact-2-left-wrapper {
   @include flex-column-left;
-  gap: 148px;
+  gap: 248px;
+}
+
+.space-filler {
+  width: 12px;
+  height: 35px;
+}
+
+.contact-2-right-header {
+  @include font-16-27-400;
+  color: $color-ln-10;
+}
+
+label {
+  @include font-18-normal-700;
+  color: $color-blue-100;
+}
+
+input, select {
+  @include reset-input;
+  padding: 15px 11px;
+
+  font-family: 'Inter', sans-serif ;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  border: 2px solid $color-dn-70;
+  width: clamp(300px, -20px, 200px);
+}
+
+select {
+  padding: 15px 8px; 
+
+  option {
+    background-color: $color-dn-170;
+    font-size: 16px;
+  }
+}
+
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border: 2px solid $color-ln-30;
+  border-radius: 0;
+}
+
+input::placeholder, textarea::placeholder {
+  @include font-16-normal-400;
+  color: $color-ln-70;
+}
+
+.select-placeholder {
+  @include font-16-normal-400;
+  color: $color-ln-70;
+}
+
+textarea {
+  @include reset-input;
+  padding: 15px 11px;
+
+  font-family: 'Inter', sans-serif ;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  border: 2px solid $color-dn-70;
+  width: clamp(631px, -20px, 200px);
+  min-height: 156px;
+}
+
+.input-button {
+  @include reset-button;
+  @include font-16-normal-400;
+
+  font-weight: 500;
+  width: 113px;
+
+  color: $color-ln-70;
+
+  padding: 10px 259px;
+  border: 2px solid $color-ln-70;
+  width: 631px;
+}
+
+.form-row-item-wrapper-1 {
+  @include flex-column-left;
+  gap: 12px;
+}
+
+.form-row-item-wrapper {
+  @include flex-row;
+  gap: 31px;
+}
+
+.form-wrapper {
+  @include flex-column-left;
+  gap: 24px;
+}
+
+.contact-2-right-wrapper {
+  @include flex-column-left;
+  gap: 24px;
+}
+
+.contact-2-wrapper {
+  @include flex-row;
+  gap: 64px;
+
+  align-items: flex-start;
+
+  margin: 0 auto;
+  max-width: 1280px;
+
+  margin-bottom: 112px;
 }
