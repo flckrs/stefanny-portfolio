@@ -265,3 +265,59 @@ textarea {
 
   margin-bottom: 112px;
 }
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(15, 15, 15, 0.65);
+  z-index: 1;
+}
+
+.alert-title {
+  @include font-24-normal-700;
+  color: $color-primary-white;
+}
+
+.alert-content {
+  @include font-16-27-400;
+  color: $color-ln-70;
+
+  text-align: center;
+}
+
+.alert-wrapper {
+  @include flex-column;
+  gap: 16px;
+}
+
+.alert-button {
+  @include reset-button;
+  @include font-16-24-700;
+
+  color: $color-accent-blue;
+  padding: 10px 225px;
+
+  border: 2px solid $color-accent-blue;
+}
+
+.alert {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  max-width: auto;
+  max-height: auto;
+
+  background-color: $color-dn-110;
+  border: 1px solid $color-dn-80;
+  border-radius: 8px;
+
+  padding: 36px 56px;
+
+  @include flex-column;
+  gap: 36px;
+}

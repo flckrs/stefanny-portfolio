@@ -123,6 +123,22 @@
 
     </section>
 
+    <section class="Alert-hidden">
+      <div v-if="success">
+        <div class="overlay">
+          <div class="alert">
+            <div class="alert-wrapper">
+              <h4 class="alert-title">Message Sent!</h4>
+              <p class="alert-content">I'll be in touch soon! Expect a response within <b class="white">2-3 business days</b>.<br> <span class="alert-content" style="white-space: pre-line">Feel free to reach out if you have any questions or concerns.</span> </p>
+            </div>
+            
+            <button class="alert-button" @click="success = false">Got It!</button>
+          </div>
+        </div>
+      </div>
+  
+    </section>
+
     <section class="contact-3">
       <Footer />
     </section>
@@ -138,7 +154,6 @@
 </style>
 
 <script>
-
 import Navbar from '@/components/NavbarView.vue';
 import Footer from '@/components/FooterView.vue';
 
@@ -151,13 +166,23 @@ export default {
     Footer,
   },
 
+  data() {
+    return {
+      success: false
+    };
+  },
+
   methods: {
+    callAlert(){
+      this.success = true;
+    },
+
     sendEmail() {
       //emailjs.sendForm('service_qw2cbdk', 'template_pvfkh2c', this.$refs.form, 'x3x9hxFt2_vABOWXd')
       emailjs.sendForm('service_n65tg0n', 'template_va4lgvl', this.$refs.form, 'aQmHijM5780Nd66t2')
         .then((result) => {
             console.log('SUCCESS!', result.text);
-            alert("message sent!");
+            this.callAlert();
         }, (error) => {
             console.log('FAILED...', error.text);
         });
