@@ -21,7 +21,13 @@ const routes = [
     path: '/projects',
     name: 'projects',
     component: HomeView,
+  },
+  {
+    path: '/projects/CVScreeningSystem',
+    name: 'CV',
+    component: () => import('../views/CVScreeningSystemView.vue')
   }
+  
 ]
 
 const router = createRouter({
