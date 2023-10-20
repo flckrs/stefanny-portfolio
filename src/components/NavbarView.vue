@@ -3,13 +3,13 @@
     <nav id="navbar">
       <div class="navbar-wrapper">
         <ul class="navbar-router">
-          <li><router-link to="/">Home</router-link></li>
-          <li><router-link to="/">Projects</router-link></li>
-          <li><router-link to="/about">About Me</router-link></li>
+          <li><router-link to="/" class="nav-link active-button">Home</router-link></li>
+          <li><router-link to="/projects" class="nav-link">Projects</router-link></li>
+          <li><router-link to="/about" class="nav-link">About Me</router-link></li>
         </ul>
 
         <div class="navbar-contact">
-          <button class="work-together"><router-link to="/contact">Let's Work Together</router-link></button>
+          <button class="work-together"><router-link to="/contact" class="nav_link">Let's Work Together</router-link></button>
         </div>
       </div>
     </nav>
@@ -25,7 +25,12 @@
 </style>
 
 <script>  
-   export default {
-    
-  };
+export default {
+  methods: {
+    scrollToProjects() {
+      // Use the router to navigate to the "/projects" route
+      this.$router.push("/projects");
+    },
+  },
+};
 </script>

@@ -5,7 +5,7 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: HomeView
+    component: HomeView,
   },
   {
     path: '/about',
@@ -16,13 +16,40 @@ const routes = [
     path: '/contact',
     name: 'contact',
     component: () => import('../views/ContactView.vue')
+  },
+  {
+    path: '/projects',
+    name: 'projects',
+    component: HomeView,
   }
 ]
 
 const router = createRouter({
   history: createWebHashHistory(),
-  routes
-})
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: 'smooth',
+      };
+    }
+
+    if (to.name === 'projects') {
+      const projectsSection = document.getElementById('projects');
+      if (projectsSection) {
+        return { el: projectsSection, behavior: 'smooth' };
+      }
+    }
+
+    // If the route has a savedPosition (back/forward navigation), use that
+    if (savedPosition) {
+      return savedPosition;
+    }
+    // Otherwise, scroll to the top of the page
+    return { top: 0 };
+  }
+});
 
 export default router
 

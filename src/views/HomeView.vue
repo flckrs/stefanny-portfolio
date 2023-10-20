@@ -1,4 +1,4 @@
-<template>
+<template id="home">
   <div class="home">
     <nav>
       <Navbar />
@@ -26,7 +26,7 @@
   
                 <img src="../assets/images/home/section1/or.svg" alt="background-image">
                 
-                <button class="view-projects white"><router-link to="/">View Projects</router-link></button>
+                <button @click="scrollToProjects" class="view-projects white" id="view-projects">View Projects</button>
               </div>
   
               <span class="hero-filler"></span>
@@ -176,7 +176,7 @@
         </div>
       </section>
 
-      <section class="home-5">
+      <section class="home-5" ref="projects" id="projects">
         <div class="home-5-wrapper">
           
           <div class="home-5-header">
@@ -262,7 +262,6 @@
       
     </section>
 
-
   </div>
 </template>
 
@@ -285,6 +284,11 @@ export default {
     Navbar,
     Pfooter,
     Footer
+  },
+  methods: {
+    scrollToProjects() {
+      this.$refs["projects"].scrollIntoView({ behavior: "smooth" })
+    },
   },
 }
 

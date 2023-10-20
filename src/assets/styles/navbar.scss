@@ -1,6 +1,6 @@
 nav .navbar-router a {
   @include reset-unordered-list-item;
-  @include font-16-normal-400;
+  @include font-16-normal-400;  
 }
 
 .navbar-contact {
@@ -44,4 +44,10 @@ nav .navbar-router a {
   border-bottom: 1px solid $color-dn-90;
   background: rgba(32, 33, 36, 0.45);
   backdrop-filter: blur(27px);
+}
+
+a.router-link-active {
+  font-weight: 700;
+  color: $color-primary-yellow;
+  text-decoration-line: underline;
 }

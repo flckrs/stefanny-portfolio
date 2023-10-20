@@ -123,6 +123,10 @@
 
     </section>
 
+    <section class="contact-3">
+      <Footer />
+    </section>
+
     <section class="Alert-hidden">
       <div v-if="success">
         <div class="overlay">
@@ -139,9 +143,6 @@
   
     </section>
 
-    <section class="contact-3">
-      <Footer />
-    </section>
   </div>
 </template>
 
