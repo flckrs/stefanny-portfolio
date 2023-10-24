@@ -214,7 +214,7 @@
                   <strong class="portfolio-role">UI / UX Designer</strong>
                 </div>
 
-                <button class="view-case-study-button">View case study</button>
+                <button class="view-case-study-button"><router-link to="/projects/StreamingServicesApp">View case study</router-link></button>
               </div>
 
               <img src="../assets/images/home/section5/portfolioImg02.svg" alt="product portfolio design preview" class="portfolio-frontpage-picture">

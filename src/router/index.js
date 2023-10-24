@@ -26,6 +26,11 @@ const routes = [
     path: '/projects/CVScreeningSystem',
     name: 'CV',
     component: () => import('../views/CVScreeningSystemView.vue')
+  },
+  {
+    path: '/projects/StreamingServicesApp',
+    name: 'OTT',
+    component: () => import('../views/StreamingServicesView.vue')
   }
   
 ]

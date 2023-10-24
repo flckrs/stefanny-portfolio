@@ -18,7 +18,7 @@ h1.case-study-header {
   @include font-36-54-700;
   font-weight: 600;
 
-  font-family: Khand;
+  font-family: 'Khand', sans-serif;
 }
 
 .case-study-text {
@@ -89,6 +89,16 @@ h1.case-study-header {
   z-index: 1;
 }
 
+.background-hero-bg {
+  position: absolute;
+  display: block;
+  height: 100%;
+  width: auto;
+  top: 0;
+
+  z-index: 0;
+}
+
 .mockup-hero-bg {
   position: absolute;
   display: block;
@@ -99,4 +109,157 @@ h1.case-study-header {
   right: 0;
 
   z-index: 1;
+}
+
+.case-study-background {
+  background: $color-ln-10;
+}
+
+/* case-study-2 */
+
+h4.what-i-did-header {
+  @include font-20-27-500;
+  color: $color-primary-black;
+
+  position: relative;
+  z-index: 2;
+}
+
+.what-i-did-header-wrapper {
+  position: relative;
+}
+
+img.yellow-curve-image {
+  position: absolute;
+  top: 7px;
+  left: -11px;
+
+  z-index: 0;
+}
+
+.item-pills-wrapper {
+  @include font-16-27-400;
+  padding: 2px 16px;
+
+  border-radius: 50px;
+  border: 1px solid $color-primary-black;
+  max-width: fit-content;
+}
+
+.what-i-did-pills-wrapper {
+  @include flex-row;
+  flex-wrap: wrap;
+
+  margin-top: 32px;
+
+  max-width: 501px;
+  row-gap: 12px;
+
+  column-gap: 8px;
+}
+
+p {
+  @include font-16-28-400;
+  color: $color-dn-110 ;
+}
+
+h2 {
+  @include font-24-normal-700;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  margin-bottom: 12px;
+
+  font-family: 'Khand', sans-serif;
+  color: $color-primary-black;
+}
+
+.project-background-wrapper {
+  @include flex-column-left;
+
+  max-width: 738px;
+}
+
+.case-study-2-1-wrapper {
+  @include normal-flex-space-between;
+}
+
+.case-study-2-1-wrapper-0 {
+  padding-top: 88px;
+  padding-bottom: 56px;
+}
+
+.case-study-2-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.case-study-image {
+  max-width: 100%;
+}
+
+.redirect-to-bottom {
+  @include reset-button;
+  @include font-16-normal-400;
+
+  color: $color-dn-100;
+  padding: 12px 16px;
+
+  border: 2px solid $color-dn-100;
+}
+
+.case-study-2-2-wrapper-1 {
+  @include flex-column;
+  gap: 32px;
+
+  padding-bottom: 56px;
+}
+
+.case-section-wrapper-1, .case-section-wrapper-container {
+  max-width: 630px;
+  margin: 0 auto;
+
+  padding-bottom: 56px;
+}
+
+h3.case-section-title {
+ @include font-18-27-700;
+ color: $color-primary-black; 
+}
+
+.case-section-filler {
+  width: 5px;
+  height: 27px;
+
+  background: $color-yellow-100;
+}
+
+.case-section-header-wrapper {
+  @include flex-row;
+  gap: 12px;
+
+  margin-bottom: 12px;
+}
+
+.case-section-wrapper-container {
+  padding: 24px 32px;
+  background-color: $color-ln-110;
+
+  border-radius: 6px;
+}
+
+.margin-top {
+  margin-top: 56px;
+}
+
+.margin-bottom {
+  margin-bottom: 88px;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ol[data-list-type="numbered"] {
+  list-style-type: decimal;
 }
