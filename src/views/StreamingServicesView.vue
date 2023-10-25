@@ -195,6 +195,10 @@
           </div>
         </div>
 
+        <section class="carousel margin-bottom">
+          <Carousel />
+        </section>
+
         <div class="case-section-wrapper">
           <div class="case-section-wrapper-1 margin-bottom">
             <h2 class="case-section-title">Summary</h2>
@@ -233,11 +237,14 @@ import Navbar from '@/components/NavbarView.vue';
 import Pfooter from '@/components/PfooterView.vue';
 import Footer from '@/components/FooterView.vue';
 
+import Carousel from '@/components/CarouselViewOTT.vue';
+
 export default {
   components: {
     Navbar,
     Pfooter,
-    Footer
+    Footer,
+    Carousel
   },
 };
 </script>
