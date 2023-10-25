@@ -64,9 +64,9 @@
 
             <div class="case-study-2-1 project-background-wrapper">
               <h2 class="case-section-title">Project Background</h2>
-              <p class="case-section-content">Vision+ is a platform offering digital live TV and on-demand streaming services under MNC Vision Network (MVN). In my role, I handled user interface analysis, developed user flows, designed interfaces, managed documentation processes, and implemented features for the rebranding of V+ into a super app offering multiple services.
+              <p class="case-section-content"><b class="secondary-black">Vision+</b> is a platform offering <b class="secondary-black">digital live TV</b> and <b class="secondary-black">on-demand streaming services</b> under MNC Vision Network (MVN). In my role, I handled user interface analysis, developed user flows, designed interfaces, managed documentation processes, and implemented features for the rebranding of V+ into a super app offering multiple services.
                 <br> <br>
-              Even though the app initially drew a lot of users, its usage decreased over time. Given that V+ was a relatively new product (2 years old) post-rebranding, it still held onto its old identity and had a lot flops, leading to a less-than-ideal user experience as an Over-The-Top (OTT) app. The challenge we faced was evident: How could we elevate the current app's user experience?</p>
+              Even though the app initially drew a lot of users, its usage decreased over time. Given that V+ was a relatively new product (2 years old) post-rebranding, it still held onto its old identity and had a lot flops, leading to a less-than-ideal user experience as an Over-The-Top (OTT) app. <b class="secondary-black">The challenge we faced was evident: How could we elevate the current app's user experience?</b></p>
             </div>
           </div>
         </div>
@@ -82,7 +82,7 @@
         <div class="case-section-wrapper">
           <div class="case-section-wrapper-1">
             <h2 class="case-section-title">The Challenge</h2>
-            <p>During the design and development process, we’re instructed to avoid direct communication with users, relying solely on their feedback from the app and literature study to enhance the designs. This approach is essential because many issues require in-depth analysis beyond surface observations, all while adhering to a tight timeline.</p>
+            <p>During the design and development process, <b class="secondary-black">we’re instructed to avoid direct communication with users</b>, relying solely on their feedback from the app and literature study to enhance the designs. This approach is essential because many issues require in-depth analysis beyond surface observations, all while adhering to a tight timeline.</p>
           </div>
         </div> 
 
@@ -94,7 +94,7 @@
 
         <div class="case-section-wrapper">
           <div class="case-section-wrapper-1">
-            <p>Our COO shared the current challenges faced by Vision+, where users were reluctant to purchase the watch package, with most opting for the monthly package and not renewing it the following month. In response, our COO urged us to make "significant improvements" to the product. It became evident that a shift in focus towards the user experience was crucial for achieving success.</p>
+            <p>Our COO shared the current challenges faced by Vision+, where <b class="secondary-black">users were reluctant to purchase the watch package</b>, with most opting for the monthly package and not renewing it the following month. In response, our COO urged us to make "<b class="secondary-black">significant improvements</b>" to the product. It became evident that a shift in focus towards the user experience was crucial for achieving success.</p>
           </div>
         </div> 
 
@@ -112,7 +112,7 @@
         <div class="case-section-wrapper">
           <div class="case-section-wrapper-1 margin-top">
             <h2 class="case-section-title">DEVELOPING A POINT OF VIEW</h2>
-            <p>While reviewing the product, we noticed several areas that needed improvement, especially in terms of users understanding the app at a basic level. Many features lacked clear use cases, failed at creating a balance between security and user experience, and there were inconsistencies, with some features being "invisible" to users. I suspected that these issues might be the reason why users weren't purchasing our packages regularly and why the app failed to captivate them, despite matching their content preferences. In response, our team divided tasks, and this page highlights some of the tasks I took on to address these challenges.</p>
+            <p>While reviewing the product, we noticed several areas that needed <b class="secondary-black">improvement</b>, especially in terms of users understanding the app at a basic level. Many features <b class="secondary-black">lacked clear use cases, failed at creating a balance between security and user experience, and there were inconsistencies, with some features being "invisible" to users</b>. I suspected that these issues might be the reason why users weren't purchasing our packages regularly and why the app failed to captivate them, despite matching their content preferences. In response, our team divided tasks, and this page highlights some of the tasks I took on to address these challenges.</p>
           </div>
         </div> 
 
@@ -125,7 +125,7 @@
         <div class="case-section-wrapper">
           <div class="case-section-wrapper-1">
             <h2 class="case-section-title">FEATURES - PAYMENT</h2>
-            <p>The payment feature in this app had some glaring issues: (1) it lacked clear instructions for pending, failed, or successful payments, (2) the users couldn't view payment details. These problems stemmed from an incomplete user flow at the beginning. To address this, I ensured to create a comprehensive user flow and designed the screens accordingly.</p>
+            <p>The payment feature in this app had some glaring issues: <b class="secondary-black">(1) it lacked clear instructions for pending, failed, or successful payments, (2) the users couldn't view payment details.</b> These problems stemmed from an incomplete user flow at the beginning. To address this, I ensured to create a comprehensive user flow and designed the screens accordingly.</p>
           </div>
         </div> 
         
@@ -137,14 +137,14 @@
 
         <div class="case-section-wrapper">
           <div class="case-section-wrapper-1">
-            <p>In enhancing this feature, I added more entry points to other features, making it easier for users to discover and find the package offerings interesting. Although I acknowledge that frequent "buy package" pop-ups during streaming might be annoying, this strategy has proven effective. It creates a slight annoyance, encouraging users to purchase the package without being disruptive enough to make them quit the app.</p>
+            <p>In enhancing this feature, I added <b class="secondary-black">more entry points to other features</b>, making it easier for users to discover and find the package offerings interesting. Although I acknowledge that frequent "buy package" <b class="secondary-black">pop-ups during streaming</b> might be annoying, this strategy has proven effective. It creates a slight annoyance, encouraging users to purchase the package without being disruptive enough to make them quit the app.</p>
           </div>
         </div>
 
         <div class="case-section-wrapper">
           <div class="case-section-wrapper-1">
             <h2 class="case-section-title">FEATURES - USER SIGN UP</h2>
-            <p>To log into the app, users have to enter a verification code sent via SMS (OTP). The issue we discovered is that currently, users could enter the OTP an unlimited number of times. This poses a significant security risk, especially if an unauthorized user, like a hacker, attempts to gain access. Without safety mechanisms, a hacker could quickly generate and input multiple OTP patterns in a short time, easily taking over a user account.
+            <p>To log into the app, users have to enter a verification code sent via SMS (OTP). The issue we discovered is that currently, <b class="secondary-black">users could enter the OTP an unlimited number of times</b>. This poses a significant security risk, especially if an unauthorized user, like a hacker, attempts to gain access. Without safety mechanisms, <b class="secondary-black">a hacker could quickly generate and input multiple OTP patterns</b> in a short time, easily taking over a user account.
               <br> <br>
             I proposed several solutions to address this problem, but some of them were not feasible due to limited resources and technical constraints.</p>
           </div>
@@ -159,9 +159,9 @@
         <div class="case-section-wrapper">
           <div class="case-section-wrapper-1">
             <h2 class="case-section-title">Features - VOD Player & VOD Downlaod</h2>
-            <p>As a streaming service provider, user experience during video streaming is our highest priority as a service provider. Unfortunately, I've identified issues with how users access the VOD player feature. Specifically, users can't stream videos in vertical mode, causing inconvenience, as many users also prefer this orientation. Additionally, users experience significant lag while streaming live videos, although this falls beyond the scope of the design team. Regardless, prioritizing the end results and satisfaction of users remains our paramount concern.
+            <p>As a streaming service provider, user experience during <b class="secondary-black">video streaming is our highest priority</b> as a service provider. Unfortunately, I've identified issues with how users access the VOD player feature. Specifically, users can't stream videos in vertical mode, causing inconvenience, as many users also prefer this orientation. Additionally, users experience significant lag while streaming live videos, although this falls beyond the scope of the design team. Regardless, <b class="secondary-black">prioritizing the end results and satisfaction of users remains our paramount concern.</b>
               <br> <br>
-            In this app, users can download videos to watch offline, but we identified some issues in the download process along with corresponding solutions:</p>
+            In this app, users <b class="secondary-black">can download videos to watch offline</b>, but we identified some <b class="secondary-black">issues</b> in the download process along with <b class="secondary-black">corresponding solutions</b>:</p>
           </div>
         </div>
 
@@ -174,11 +174,11 @@
         <div class="case-section-wrapper">
           <div class="case-section-wrapper-1">
             <h2 class="case-section-title">Features - Games</h2>
-            <p>The gaming industry is booming, expected to grow from USD 198.40 billion in 2021 to USD 339.95 billion by 2027. Fueled by the prolonged pandemic, people are turning to gaming for entertainment, leading to significant user growth. Rapid technological advancements further enhance the gaming experience. Recognizing this,
+            <p>The <b class="secondary-black">gaming industry is booming</b>, expected to grow from USD 198.40 billion in 2021 to USD 339.95 billion by 2027. Fueled by the prolonged pandemic, people are turning to gaming for entertainment, leading to significant user growth. Rapid technological advancements further enhance the gaming experience. Recognizing this,
               <br> <br>
-            Vision+ plans to expand by introducing gaming features in Vision+ 2.0. Users can enjoy web-based casual games by MNC Games, adding gamification features to the app. This move aims to attract more users and align with industry trends.
+            Vision+ plans to expand by <b class="secondary-black">introducing gaming features</b> in Vision+ 2.0. Users can enjoy web-based casual games by MNC Games, adding gamification features to the app. This move aims to attract more users and align with industry trends.
               <br> <br>
-            Armed with this information, I conducted a competitive analysis of key players like Amazon Prime, Google Stadia, and Apple Arcade. My goal was to not only understand the market but also expand our target audience. Based on this analysis and the desire to broaden our user base, I formulated several features, including profile customization, a referral program, daily missions, loyalty points, and in-app item purchases. These features were carefully aligned with the basic principles of UX Games to enhance the overall gaming experience.</p>
+            Armed with this information, I conducted a <b class="secondary-black">competitive analysis</b> of key players like Amazon Prime, Google Stadia, and Apple Arcade. My goal was to not only understand the market but also <b class="secondary-black">expand our target audience</b>. Based on this analysis and the desire to broaden our user base, I formulated several features, including profile customization, a referral program, daily missions, loyalty points, and in-app item purchases. These features were carefully aligned with the basic principles of UX Games to enhance the overall gaming experience.</p>
           </div>
         </div>
         
@@ -191,7 +191,7 @@
         <div class="case-section-wrapper">
           <div class="case-section-wrapper-1">
             <h2 class="case-section-title">Other Features</h2>
-            <p>In a few months, we dedicated our efforts to enhance the Vision+ product on Android, iOS, desktop, and Live TV platforms. Our primary focus was on elevating user experiences to make them more enjoyable. Concurrently, we worked on introducing new features in preparation for rebranding Vision+ as a super app.</p>
+            <p>In a few months, we dedicated our efforts to enhance the Vision+ product on Android, iOS, desktop, and Live TV platforms. Our primary focus was on <b class="secondary-black">elevating user experiences to make them more enjoyable</b>. Concurrently, we worked on introducing new features in preparation for rebranding Vision+ as a super app.</p>
           </div>
         </div>
 
@@ -202,9 +202,9 @@
         <div class="case-section-wrapper">
           <div class="case-section-wrapper-1 margin-bottom">
             <h2 class="case-section-title">Summary</h2>
-            <p>In UI/UX design, there are common practices like creating user flows, sitemaps, user persona, and many more. Through this experience, I learned that not every product needs to strictly follow these practices especially if the product is on the different stage (in this case, the product is in growth stage rather than a brand-new product). Each fundamental process has its unique goals and functions. I believe it's crucial to use the right tools for the right purpose.
+            <p>In UI/UX design, there are common practices like creating user flows, sitemaps, user persona, and many more. Through this experience, I learned that <b class="secondary-black">not every product needs to strictly follow these practices</b> especially if the product is on the different stage (in this case, the product is in growth stage rather than a brand-new product). Each fundamental process has its unique goals and functions. I believe it's crucial to <b class="secondary-black">use the right tools for the right purpose</b>.
               <br> <br>
-            Another lesson learned is the importance of balancing metrics for users. In a streaming service, user comfort is paramount. Users should feel at ease while using the service, ensuring a positive experience, while the business still benefits from user engagement.</p>
+            Another lesson learned is the importance of <b class="secondary-black">balancing metrics for users</b>. In a streaming service, user comfort is paramount. Users should feel at ease while using the service, ensuring a positive experience, while the business still benefits from user engagement.</p>
           </div>
         </div>
 
