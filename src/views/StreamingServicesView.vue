@@ -75,7 +75,7 @@
           <div class="case-study-2-2-wrapper-1">
             <img src="../assets/images/casestudy2/products/image01.svg" alt="product sneakpeek" class="case-study-image">
 
-            <button class="redirect-to-bottom">Bypass all this valuable content and jump down to see the design!</button>
+            <button @click="scrollToProjects" class="redirect-to-bottom">Bypass all this valuable content and jump down to see the design!</button>
           </div>
         </div>
 
@@ -195,7 +195,7 @@
           </div>
         </div>
 
-        <section class="carousel margin-bottom">
+        <section class="carousel margin-bottom" ref="carousel" id="carousel">
           <Carousel />
         </section>
 
@@ -245,6 +245,11 @@ export default {
     Pfooter,
     Footer,
     Carousel
+  },
+  methods: {
+    scrollToProjects() {
+      this.$refs["carousel"].scrollIntoView({ behavior: "smooth" })
+    },
   },
 };
 </script>

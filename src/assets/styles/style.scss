@@ -97,13 +97,8 @@ body {
   border: 1px solid $color-primary-white;
 }
 
-// a.active-button {
-//   color: red;
-// }
-
 a.router-link-active {
   font-weight: 700;
   color: $color-primary-yellow;
   text-decoration-line: underline;
-
 }

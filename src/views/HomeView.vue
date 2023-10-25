@@ -225,10 +225,13 @@
                 <div class="home-5-portfolio-text-wrapper">
                   <h4 class="portfolio-year">2021 - 2023</h4>
                   <h3 class="portfolio-title">Other Projects</h3>
-                  <strong class="portfolio-role">Product Designer, UI / UX Designer, Front-End Developer</strong>
+                  <p class="portfolio-role">This section is still under construction, but I'm excited to share it with you soon.
+                    <br> <br>
+                  In the meantime, check out my past projects on Behance
+                  </p>
                 </div>
 
-                <button class="view-case-study-button">View projects</button>
+                <button class="view-case-study-button"><a href="https://www.behance.net/liestefanny" target="_blank">View projects on Behance</a></button>
               </div>
 
               <img src="../assets/images/home/section5/portfolioImg03.svg" alt="product portfolio design preview" class="portfolio-frontpage-picture">

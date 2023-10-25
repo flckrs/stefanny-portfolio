@@ -31,7 +31,12 @@ const routes = [
     path: '/projects/StreamingServicesApp',
     name: 'OTT',
     component: () => import('../views/StreamingServicesView.vue')
-  }
+  },
+  // {
+  //   path: '/projects/OtherProjects',
+  //   name: 'otherprojects',
+  //   component: () => import('../views/StreamingServicesView.vue')
+  // }
   
 ]
 

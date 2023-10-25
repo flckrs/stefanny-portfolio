@@ -80,6 +80,25 @@ button {
   width: calc(100vw - 3rem);
 }
 
+button.hire-me:hover, button.view-projects:hover {
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+button.view-projects:active {
+  color: $color-dn-20;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+button.hire-me:active {
+  a {
+    color: $color-dn-20;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+  }
+}
+
 // image absolute
 .background-image-hero {
   position: absolute;
@@ -394,7 +413,19 @@ button {
 }
 
 .view-case-study-button {
-  @include case-study-button;
+  @include font-16-27-400;
+  padding: 8px 12px;
+  border: 1px solid $color-primary-white;
+  transition: all 0.15s ease-in-out;
+
+  &:hover {
+    a {
+      transition: all 0.15s ease-in-out;
+      color: $color-primary-yellow;
+    }
+
+    border-color: $color-primary-yellow;
+  }
 }
 
 .home-5-portfolio-item-wrapper-0 {

@@ -3,9 +3,9 @@
     <nav id="navbar">
       <div class="navbar-wrapper">
         <ul class="navbar-router">
-          <li><router-link to="/" class="nav-link active-button">Home</router-link></li>
-          <li><router-link to="/projects" class="nav-link">Projects</router-link></li>
-          <li><router-link to="/about" class="nav-link">About Me</router-link></li>
+          <li><router-link to="/" class="nav-link nav-link-ltr">Home</router-link></li>
+          <li><router-link to="/projects" class="nav-link nav-link-ltr">Projects</router-link></li>
+          <li><router-link to="/about" class="nav-link nav-link-ltr">About Me</router-link></li>
         </ul>
 
         <div class="navbar-contact">

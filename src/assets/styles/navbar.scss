@@ -3,8 +3,41 @@ nav .navbar-router a {
   @include font-16-normal-400;  
 }
 
-.navbar-contact {
+.nav-link {
+  padding: 20px 0px;
+  // margin: 0px 20px;
+  display: inline-block;
+  position: relative;
+  opacity: 1;
+}
 
+.nav-link:hover {
+  font-weight: 600;
+  opacity: 1;
+}
+
+.nav-link:active {
+  font-weight: 600;
+}
+
+.nav-link::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: $color-primary-yellow;
+}
+
+.nav-link-ltr::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.nav-link-ltr:hover::before {
+  width: 100%;
+}
+
+.navbar-contact {
   .work-together {
     @include reset-button;
     @include font-16-normal-400;
@@ -16,8 +49,13 @@ nav .navbar-router a {
       text-decoration: none;
     }
 
+    &:hover {
+      font-weight: 600;
+    }
+
     &:active {
       font-weight: 600;
+      background-color: $color-dn-160;
     }
   }
 }
@@ -50,5 +88,10 @@ a.router-link-active {
   font-weight: 700;
   color: $color-primary-yellow;
   text-decoration-line: underline;
-  
+}
+
+a.router-link-exact-active {
+  font-weight: 700;
+  color: $color-primary-yellow;
+  text-decoration-line: underline;
 }
