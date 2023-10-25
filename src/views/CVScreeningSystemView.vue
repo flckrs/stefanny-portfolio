@@ -81,7 +81,7 @@
           <div class="case-study-2-2-wrapper-1">
             <img src="../assets/images/casestudy1/productss/image01.svg" alt="product sneakpeek" class="case-study-image">
 
-            <button class="redirect-to-bottom">Bypass all this valuable content and go straight down to see the design!</button>
+            <button class="redirect-to-bottom">Bypass all this valuable content and jump down to see the design!</button>
           </div>
         </div>
 
@@ -297,6 +297,10 @@
           </div>
         </div>
 
+        <section class="carousel margin-bottom">
+          <Carousel />
+        </section>
+
         <div class="case-section-wrapper">
           <div class="case-section-wrapper-1 margin-bottom">
             <h2 class="case-section-title">Summary</h2>
@@ -341,11 +345,14 @@ import Navbar from '@/components/NavbarView.vue';
 import Pfooter from '@/components/PfooterView.vue';
 import Footer from '@/components/FooterView.vue';
 
+import Carousel from '@/components/CarouselView.vue';
+
 export default {
   components: {
     Navbar,
     Pfooter,
-    Footer
+    Footer,
+    Carousel,
   },
 };
 </script>

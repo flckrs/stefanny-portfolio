@@ -75,7 +75,7 @@
           <div class="case-study-2-2-wrapper-1">
             <img src="../assets/images/casestudy2/products/image01.svg" alt="product sneakpeek" class="case-study-image">
 
-            <button class="redirect-to-bottom">Bypass all this valuable content and go straight down to see the design!</button>
+            <button class="redirect-to-bottom">Bypass all this valuable content and jump down to see the design!</button>
           </div>
         </div>
 
