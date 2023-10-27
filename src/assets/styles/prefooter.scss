@@ -47,3 +47,48 @@
 
   background: $color-dn-160;
 }
+
+@media screen and (max-width: 874px) {
+  .prefooter-suggestion {
+    font-size: 1rem;
+  }
+
+  .prefooter-cta-button {
+    font-size: 2rem;
+  }
+
+  .prefooter-text {
+    font-size: 1rem;
+  }
+
+  .sign-image {
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -45%);
+  }
+
+  .prefooter-wrapper-cta-wrapper {
+    gap: 24px;
+  }
+}
+
+@media screen and (max-width: 691px) {
+  img.arrow-icon {
+    display: none;
+  }
+
+  .prefooter-wrapper-cta-wrapper {
+    max-width: 691px;
+    width: calc(100vw - 3em);
+
+    margin: 0 auto;
+  }
+
+  img.sign-image {
+    max-width: 691px;
+    width: calc(100vw - 3em);
+
+    height: auto;
+  }
+  
+}
