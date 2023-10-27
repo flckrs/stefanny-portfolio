@@ -608,6 +608,8 @@ button.hire-me:active {
   }
 }
 
+/* Responsive - Home - 5 */
+
 @media screen and (max-width: 1162px) {
   .home-5-portfolio-text-wrapper {
     @include normal-flex-column-left;
@@ -618,6 +620,24 @@ button.hire-me:active {
 }
 
 @media screen and (max-width: 1090px) {
+  .hero-content, .hero, .home-1-name {
+    max-width: 430px;
+  }
+
+  h1.hero {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+
+  .home-1-name {
+    font-size: 1rem;
+    letter-spacing: 0.39rem;
+  }
+
+  .home-1-cta-wrapper {
+    width: 70%;
+  }
+
   .image-responsive-hidden {
     display: none;
   }
@@ -680,5 +700,61 @@ button.hire-me:active {
   .home-5-header-wrapper {
     @include flex-column;
     gap: 18px;
+  }
+}
+
+@media screen and (max-width: 842px) {
+  img.hero-image {
+    display: none;
+  }
+
+  .home-1-heroes-wrapper-0 {
+    @include flex-column;
+  } 
+
+  .home-1-heroes-wrapper {
+    @include flex-column;
+
+    * {
+      text-align: center;
+    }
+  } 
+}
+
+@media screen and (max-width: 423px) {
+  .home-1-heroes-wrapper {
+    max-width: 430px;
+    width: calc(100vw - 4em);
+  }
+
+  .home-1-cta-wrapper {
+    @include flex-column;
+    gap: 24px;
+
+    max-width: 100%;
+  }
+
+  span.hero-filler {
+    display: none;
+  }
+
+  .home-3-header {
+    @include font-32-normal-700;
+    font-weight: 500;
+
+    max-width: 432px;
+    width: calc(100% - 3em);
+    
+    br {
+      display: none;
+    }
+  }
+
+  h3.portfolio-title {
+    @include font-20-27-500;
+  }
+
+  h4.portfolio-year {
+    font-size: 0.875rem;
   }
 }
