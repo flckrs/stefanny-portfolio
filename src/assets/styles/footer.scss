@@ -89,3 +89,35 @@ p {
     }
   }
 }
+
+/* Responsive Navbar */
+@media screen and (max-width: 1043px) {
+  .footer-item-wrapper, .footer-item-wrapper-2, .footer-item-wrapper-3 {
+    @include flex-column;
+    gap: 16px;
+  
+    max-width: fit-content;
+  }
+
+  .footer-item-content-wrapper {
+    @include flex-column;
+
+    gap: 68px;
+  
+    margin: 0 auto;
+    
+    max-width: fit-content;
+    width: calc(100% - 3em);
+  }
+
+  .footer-content-wrapper {
+    br {
+      display: none;
+    }
+
+    p {
+      text-align: center;
+      padding-bottom: 12px;
+    }
+  }
+}
