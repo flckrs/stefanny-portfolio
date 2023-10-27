@@ -110,6 +110,10 @@ p {
     width: calc(100% - 3em);
   }
 
+  .footer-header {
+    text-align: center;
+  }
+
   .footer-content-wrapper {
     br {
       display: none;
@@ -119,5 +123,23 @@ p {
       text-align: center;
       padding-bottom: 12px;
     }
+  }
+
+  .social-media-wrapper {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 388px) {
+  h4 {
+    font-size: 1.25rem;
+  }
+
+  p.footer-content-text {
+    font-size: 1rem;
+  }
+
+  .social-media-wrapper {
+    gap: 20px;
   }
 }
