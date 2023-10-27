@@ -201,6 +201,8 @@
 
           <div class="home-5-portfolio-item-wrapper">
             <div class="home-5-portfolio-item">
+              <img src="../assets/images/home/section5/portfolioImg01.svg" alt="product portfolio design preview" class="portfolio-frontpage-picture image-responsive-display">
+
               <div class="home-5-portfolio-item-wrapper-0">
                 <div class="home-5-portfolio-text-wrapper">
                   <h4 class="portfolio-year">2022 - 2023</h4>
@@ -211,10 +213,12 @@
                 <button class="view-case-study-button"><router-link to="/projects/CVScreeningSystem">View case study</router-link></button>
               </div>
 
-              <img src="../assets/images/home/section5/portfolioImg01.svg" alt="product portfolio design preview" class="portfolio-frontpage-picture">
+              <img src="../assets/images/home/section5/portfolioImg01.svg" alt="product portfolio design preview" class="portfolio-frontpage-picture image-responsive-hidden">
             </div>
 
             <div class="home-5-portfolio-item">
+              <img src="../assets/images/home/section5/portfolioImg02.svg" alt="product portfolio design preview" class="portfolio-frontpage-picture image-responsive-display">
+
               <div class="home-5-portfolio-item-wrapper-0">
                 <div class="home-5-portfolio-text-wrapper">
                   <h4 class="portfolio-year">2022</h4>
@@ -225,10 +229,12 @@
                 <button class="view-case-study-button"><router-link to="/projects/StreamingServicesApp">View case study</router-link></button>
               </div>
 
-              <img src="../assets/images/home/section5/portfolioImg02.svg" alt="product portfolio design preview" class="portfolio-frontpage-picture">
+              <img src="../assets/images/home/section5/portfolioImg02.svg" alt="product portfolio design preview" class="portfolio-frontpage-picture image-responsive-hidden">
             </div>
 
             <div class="home-5-portfolio-item">
+              <img src="../assets/images/home/section5/portfolioImg03.svg" alt="product portfolio design preview" class="portfolio-frontpage-picture image-responsive-display">
+
               <div class="home-5-portfolio-item-wrapper-0">
                 <div class="home-5-portfolio-text-wrapper">
                   <h4 class="portfolio-year">2021 - 2023</h4>
@@ -242,10 +248,12 @@
                 <button class="view-case-study-button"><a href="https://www.behance.net/liestefanny" target="_blank">View projects on Behance</a></button>
               </div>
 
-              <img src="../assets/images/home/section5/portfolioImg03.svg" alt="product portfolio design preview" class="portfolio-frontpage-picture">
+              <img src="../assets/images/home/section5/portfolioImg03.svg" alt="product portfolio design preview" class="portfolio-frontpage-picture image-responsive-hidden">
             </div>
 
             <div class="home-5-portfolio-item no-margin-bottom">
+              <img src="../assets/images/home/section5/portfolioImg04.svg" alt="product portfolio design preview" class="portfolio-frontpage-picture image-responsive-display">
+
               <div class="home-5-portfolio-item-wrapper-0">
                 <div class="home-5-portfolio-text-wrapper">
                   <h4 class="portfolio-year">COMING SOON</h4>
@@ -256,7 +264,7 @@
                 <button class="view-case-study-button invisible">View case study</button>
               </div>
 
-              <img src="../assets/images/home/section5/portfolioImg04.svg" alt="product portfolio design preview" class="portfolio-frontpage-picture">
+              <img src="../assets/images/home/section5/portfolioImg04.svg" alt="product portfolio design preview" class="portfolio-frontpage-picture image-responsive-hidden">
             </div>
           </div>
 

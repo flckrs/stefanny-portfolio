@@ -479,6 +479,10 @@ button.hire-me:active {
   display: none;
 }
 
+.image-responsive-display {
+  display: none;
+} 
+
 /* HERO-IMAGE responsive */
 
 /*-----------------------------------------------------------------*/
@@ -577,16 +581,104 @@ button.hire-me:active {
   .responsive-visible {
     display: block;
   }
-  
 
   .responsive-hidden {
     display: none;
   }
 }
 
-
 @media screen and (max-width: 354px) {
   .responsive-hidden {
     display: block;
+  }
+
+  .responsive-visible {
+    display: none;
+  }
+
+  h3.home-4-item-header {
+    text-align: center;
+  }
+
+  .home-4-header {  
+    padding: 16px auto;
+
+    max-width: 358px;
+    width: calc(100vw - 3em);
+  }
+}
+
+@media screen and (max-width: 1162px) {
+  .home-5-portfolio-text-wrapper {
+    @include normal-flex-column-left;
+    gap: 12px;
+  
+    max-width: 330px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .image-responsive-hidden {
+    display: none;
+  }
+
+  .image-responsive-display {
+    display: block;
+  }
+
+  .home-5-portfolio-item {
+    @include flex-column;
+
+    gap: 36px;
+    padding-bottom: 48px;
+  }  
+
+  .portfolio-frontpage-picture {
+    max-width: 1280px;
+    width: calc(100% - 3em);
+    height: auto;
+
+    padding-right: 0;
+  }
+
+  .home-5-portfolio-item-wrapper-0 {
+    @include flex-column;
+    gap: 32px;
+    padding-left: 0;
+
+    min-height: fit-content;
+  }
+  
+  .home-5-portfolio-text-wrapper {
+    @include flex-column;
+    gap: 12px;
+  
+    max-width: 500px;
+    width: calc(100% - 3em);
+    * {
+      text-align: center;
+    }
+  }
+
+  h2.home-5-header-text {
+    font-size: 2rem;
+  }
+
+  .home-5-header-wrapper {
+    @include normal-flex-space-between;
+    max-width: 571px;
+    gap: 24px
+  }
+
+  .home-5-header {
+    @include flex-column;
+    gap: 24px;
+  }
+}
+
+@media screen and (max-width: 566px) {
+  .home-5-header-wrapper {
+    @include flex-column;
+    gap: 18px;
   }
 }
