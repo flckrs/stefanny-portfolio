@@ -322,6 +322,9 @@ button.hire-me:active {
 .curve-bg {
   position: absolute;
   z-index: 0;
+
+  max-width: 100%;
+  height: auto;
 }
 
 .curve-01 {
@@ -472,7 +475,14 @@ button.hire-me:active {
   margin: 144px auto;
 }
 
-/* responsive */
+.responsive-visible {
+  display: none;
+}
+
+/* HERO-IMAGE responsive */
+
+/*-----------------------------------------------------------------*/
+
 @media screen and (min-width: 1323px) and (max-width: 1661px) {
   .hero-image {
     right: clamp(2rem, 597px, 11.5rem);
@@ -488,5 +498,95 @@ button.hire-me:active {
 @media screen and (min-width: 1921px) {
   .hero-image {
     right: clamp(18rem, 635px, 300rem);
+  }
+}
+
+/* Responsive Item - home - 3 */
+@media screen and (max-width: 1261px) {
+  .home-3-item-wrapper {
+    @include flex-column;
+    gap: 32px;
+  
+    max-width: 1280px;
+    width: calc(100vw - 3em);
+  }
+
+  .home-3-item-text {
+    max-width: 600px; 
+
+    br {
+      display: none;
+    }
+  }
+
+  .home-3-item {
+    @include flex-column;
+    gap: 24px;
+  
+    background: rgba(42, 44, 48, 0.35);
+  
+    padding: 48px 31px;
+    border: 2px solid $color-dn-100;
+    border-radius: 6px;
+  
+    max-width: 1280px;
+    width: calc(100vw - 3em);
+  }
+
+  lord-icon {
+    max-width: 75px;
+    max-height: 75px;
+  }
+}
+
+/* Responsive Item - home - 4 */
+
+@media screen and (max-width: 1103px) {
+  .home-4-item-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .home-4-item-wrapper-0 {
+    max-width: 1280px;
+    width: calc(100vw - 3em);
+  }
+
+  .home-4-item-content-wrapper {
+    @include flex-column;
+    gap: 10px;
+    
+    max-width: 450px;
+    z-index: 1;
+    
+    p {
+      text-align: center;
+    }
+  }
+
+  .home-4-item-wrapper-1 {
+    @include flex-column;
+    gap: 48px;
+  
+    padding: 32px 32px;
+  }
+
+  .curve-05 {
+    top: 61.1px;
+  }
+
+  .responsive-visible {
+    display: block;
+  }
+  
+
+  .responsive-hidden {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 354px) {
+  .responsive-hidden {
+    display: block;
   }
 }

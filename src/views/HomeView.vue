@@ -121,7 +121,9 @@
           <div class="home-4-item-wrapper">
 
             <div class="home-4-item-wrapper-0">
-              <img src="../assets/images/home/section4/curve01.svg" alt="background image" class="curve-bg curve-01">
+              <img src="../assets/images/home/section4/curve01.svg" alt="background image" class="curve-bg curve-01 responsive-hidden">
+
+              <img src="../assets/images/home/section4/curve05.svg" alt="background image" class="curve-bg curve-05 responsive-visible">
 
               <div class="home-4-item-wrapper-1">
                 <img src="../assets/images/home/section4/itemicon01.svg" alt="item icon image" class="home-4-item-icon">
@@ -134,7 +136,9 @@
             </div>
 
             <div class="home-4-item-wrapper-0">
-              <img src="../assets/images/home/section4/curve02.svg" alt="background image" class="curve-bg curve-02">
+              <img src="../assets/images/home/section4/curve02.svg" alt="background image" class="curve-bg curve-02 responsive-hidden">
+
+              <img src="../assets/images/home/section4/curve05.svg" alt="background image" class="curve-bg curve-05 responsive-visible">
 
               <div class="home-4-item-wrapper-1">
                 <img src="../assets/images/home/section4/itemicon02.svg" alt="item icon image" class="home-4-item-icon">
@@ -147,7 +151,9 @@
             </div>
 
             <div class="home-4-item-wrapper-0">
-              <img src="../assets/images/home/section4/curve03.svg" alt="background image" class="curve-bg curve-03">
+              <img src="../assets/images/home/section4/curve03.svg" alt="background image" class="curve-bg curve-03 responsive-hidden">
+
+              <img src="../assets/images/home/section4/curve05.svg" alt="background image" class="curve-bg curve-05 responsive-visible">
 
               <div class="home-4-item-wrapper-1">
                 <img src="../assets/images/home/section4/itemicon03.svg" alt="item icon image" class="home-4-item-icon">
@@ -160,7 +166,9 @@
             </div>
 
             <div class="home-4-item-wrapper-0">
-              <img src="../assets/images/home/section4/curve04.svg" alt="background image" class="curve-bg curve-04">
+              <img src="../assets/images/home/section4/curve04.svg" alt="background image" class="curve-bg curve-04 responsive-hidden">
+
+              <img src="../assets/images/home/section4/curve05.svg" alt="background image" class="curve-bg curve-05 responsive-visible">
 
               <div class="home-4-item-wrapper-1">
                 <img src="../assets/images/home/section4/itemicon04.svg" alt="item icon image" class="home-4-item-icon">
