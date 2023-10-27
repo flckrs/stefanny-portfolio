@@ -220,6 +220,7 @@ button.hire-me:active {
   gap: min(21px);
 
   max-width: 1280px;
+  width: calc(100vw - 3em)
 }
 
 .home-3-wrapper {
@@ -309,7 +310,7 @@ button.hire-me:active {
 
 .home-4-item-wrapper-0 {
   position: relative;
-  min-width: 305px;
+  max-width: 305px;
 
   background: linear-gradient(#0e0e0f, #0e0e0f) 50% 50%/calc(100% - 2px) calc(100% - 2px) no-repeat,
             linear-gradient(0deg, #4a4c53 0%, transparent 50%, #4a4c53 100%);
@@ -344,6 +345,8 @@ button.hire-me:active {
   gap: 20px;
 
   max-width: 1280px;
+  width: calc(100vw - 3em);
+
   margin: 0 auto;
 }
 
@@ -385,6 +388,7 @@ button.hire-me:active {
   gap: 18px;
 
   max-width: 1280px;
+  width: calc(100vw - 3em);
   margin: 0 auto;
 
   margin-bottom: 56px;
@@ -449,6 +453,8 @@ button.hire-me:active {
 
   background: $color-dn-170;
   max-width: 1280px;
+  width: calc(100vw - 3em);
+
   margin: 0 auto;
 
   margin-bottom: 36px;
@@ -467,9 +473,15 @@ button.hire-me:active {
 }
 
 /* responsive */
-@media screen and (min-width: 1323px) and (max-width: 1920px) {
+@media screen and (min-width: 1323px) and (max-width: 1661px) {
   .hero-image {
-    right: clamp(2rem, 597px, 19.25rem);
+    right: clamp(2rem, 597px, 11.5rem);
+  }
+}
+
+@media screen and (min-width: 1662px) and (max-width: 1920px) {
+  .hero-image {
+    right: clamp(11.5rem, 597px, 19.25rem);
   }
 }
 

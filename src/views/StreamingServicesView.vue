@@ -207,7 +207,6 @@
             Another lesson learned is the importance of <b class="secondary-black">balancing metrics for users</b>. In a streaming service, user comfort is paramount. Users should feel at ease while using the service, ensuring a positive experience, while the business still benefits from user engagement.</p>
           </div>
         </div>
-
         
       </div>
     </section>

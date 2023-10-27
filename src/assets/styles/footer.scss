@@ -49,22 +49,43 @@ p {
 }
 
 .footer-item-wrapper-0 {
+  margin: 0 auto;
+
+  padding-top: 68px;
+  padding-bottom: 68px;
+
+  max-width: 100vw;
+  width: calc(100% - 3em);
+  background: $color-dn-170;
+}
+
+.footer-item-content-wrapper {
   @include flex-row;
   align-items: flex-start;
   justify-content: center;
   gap: 162px;
 
   margin: 0 auto;
-
-  padding-top: 68px;
-  padding-bottom: 68px;
-
-  width: calc(100% - 64px);
-  background: $color-dn-170;
+  
+  max-width: 1280px;
+  width: calc(100% - 3em);
 }
 
 .footer-wrapper {
   background: $color-dn-160 ;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+
+.icon:hover {
+  svg {
+    path{
+      fill: $color-primary-white;
+      transition: 250ms ease-in-out;
+    }
+    rect {
+      stroke: $color-primary-white;
+      transition: 250ms ease-in-out;
+    }
+  }
 }
