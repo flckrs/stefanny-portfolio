@@ -283,6 +283,10 @@ textarea {
   gap: 36px;
 }
 
+.hero-display-responsive {
+  display: none;
+}
+
 @media screen and (max-width: 1300px) {
   .contact-1-wrapper {  
     max-width: 1280px;
@@ -296,6 +300,85 @@ textarea {
   }
 
   .curvy-bg {
+    display: none;
+  }
+
+  .contact-2-wrapper {
+    @include flex-column;
+  }
+
+  .contact-2-left-wrapper, .contact-2-header-wrapper {
+    @include flex-column;
+
+    * {
+      text-align: center;
+    }
+  }
+
+  .contact-2-left-wrapper {
+    gap: 64px;
+  }
+
+  h3.contact-2-header {
+    max-width: fit-content;
+    width: calc(100% - 3em);
+  }
+
+  .contact-2-contact-info-wrapper {
+    @include flex-row;
+    gap: 60px;
+  }
+
+  .contact-2-right-wrapper {
+    @include flex-column;
+
+    p {
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .contact-2-contact-info-wrapper, .contact-2-info-wrapper {
+    @include flex-column;
+    gap: 48px;
+  }
+
+  .contact-2-info {
+    @include flex-column;
+  }
+
+  .hello-icon {
+    left: 20px;
+  }
+
+  .form-row-item-wrapper {
+    @include flex-column;
+    gap: 24px;
+  }
+  
+  .form-wrapper {
+    @include flex-column;
+  }
+  
+  input, select, textarea {
+    border: 2px solid $color-dn-70;
+    max-width: 300px;
+  }
+
+  .input-button {
+    padding: 10px 76.5px;
+  }
+  
+  textarea {
+    min-height: 234px;
+  }
+
+  .hero-display-responsive {
+    display: block;
+  }
+
+  .hero-display-none {
     display: none;
   }
 }

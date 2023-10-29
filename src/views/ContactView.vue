@@ -6,7 +6,9 @@
 
     <section class="contact-1">
       <div class="contact-1-wrapper">
-        <img src="../assets/images/contact/contacthero.png" alt="contact hero image" class="contact-hero-bg">
+        <img src="../assets/images/contact/contacthero.png" alt="contact hero image" class="contact-hero-bg hero-display-none">
+
+        <img src="../assets/images/contact/contacthero2.png" alt="contact hero image" class="contact-hero-bg hero-display-responsive">
 
         <img src="../assets/images/contact/curvyline.svg" alt="curvy hero image" class="curvy-bg">
       </div>
