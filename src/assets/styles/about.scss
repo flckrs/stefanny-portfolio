@@ -274,3 +274,26 @@ h2 {
     height: calc(60vh);
   }
 }
+
+@media screen and (max-width: 1324px) {
+  .about-3-item-wrapper, .about-4-tools-dev-wrapper, .about-4-tools-design-wrapper {
+    max-width: fit-content;
+    justify-content: center;
+  }
+
+  .about-3-wrapper, .about-4-tools-dev, .about-4-tools-design, .about-4-wrapper {
+    @include flex-column;
+  }
+}
+
+@media screen and (max-width: 864px) {
+  h2.about-3-values, h2.about-4-tools  {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+
+  .about-4-tools-wrapper {
+    @include flex-column;
+    gap: 64px;
+  }
+}
