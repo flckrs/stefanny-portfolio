@@ -84,6 +84,11 @@ nav .navbar-router a {
   backdrop-filter: blur(27px);
 }
 
+#navbar-solid {
+  border-bottom: 1px solid $color-dn-90;
+  background: rgba(32, 33, 36, 1);
+}
+
 a.router-link-active {
   font-weight: 700;
   color: $color-primary-yellow;

@@ -232,7 +232,7 @@
 </style>
 
 <script>  
-import Navbar from '@/components/NavbarView.vue';
+import Navbar from '@/components/NavbarSolidView.vue';
 import Pfooter from '@/components/PfooterView.vue';
 import Footer from '@/components/FooterView.vue';
 
