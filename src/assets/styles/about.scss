@@ -284,6 +284,13 @@ h2 {
   .about-3-wrapper, .about-4-tools-dev, .about-4-tools-design, .about-4-wrapper {
     @include flex-column;
   }
+
+  .section-5-culture {
+    max-width: 1324px;
+    height: auto;
+
+    width: calc(100vw - 3em);
+  }  
 }
 
 @media screen and (max-width: 864px) {
@@ -295,5 +302,15 @@ h2 {
   .about-4-tools-wrapper {
     @include flex-column;
     gap: 64px;
+  }
+
+  .about-5-wrapper {
+    height: min(543px);
+  }
+}
+
+@media screen and (max-width: 547px){
+  .about-5-wrapper {
+    height: min(343px);
   }
 }
