@@ -236,3 +236,41 @@ h2 {
   margin-top: 167px;
   margin-bottom: 167px;
 }
+
+@media screen and (max-width: 1050px) {
+  .about-me-suggestion {
+    letter-spacing: 0.39rem;
+    font-size: 0.875rem;
+  }
+
+  h1.about-me-role {
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+  }
+
+  p.about-me-explanation, p.about-me-explanation span {
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+    max-width: 659.55px;
+
+    br {
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .about-1-content-wrapper-1 {
+    max-width: 685px;
+    width: calc(100vw - 3em);
+
+    br {
+      display: none;
+    }
+  }
+
+  .about-1-wrapper {
+    height: calc(60vh);
+  }
+}
