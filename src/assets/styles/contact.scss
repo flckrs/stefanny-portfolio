@@ -35,53 +35,6 @@ nav {
   position: relative;
 }
 
-// .contact-1-intro {
-//   padding: 74px 64px;
-
-//   @include flex-column;
-//   gap: 12px;
-
-//   border: 6px solid $color-primary-black;
-//   background: rgba(255, 186, 73, 0.04);
-//   position: relative;
-
-//   h2 {
-//     @include font-36-normal-800;
-//     color: $color-yellow-100;
-
-//     text-align: center;
-//   }
-
-//   p {
-//     @include font-16-27-400;
-//     text-align: center;
-//   }
-// }
-
-// .elbow {
-//   position: absolute;
-// }
-
-// .elbow-1 {
-//   top: -6px;
-//   left: -6px;
-// }
-
-// .elbow-2 {
-//   top: -6px;
-//   right: -6px;
-// }
-
-// .elbow-3 {
-//   bottom: -6px;
-//   left: -6px;
-// }
-
-// .elbow-4 {
-//   bottom: -6px;
-//   right: -6px;
-// 
-
 .contact-2-header-wrapper {
 
   @include flex-column-left;
@@ -232,6 +185,13 @@ textarea {
   padding: 10px 259px;
   border: 2px solid $color-ln-70;
   width: 631px;
+
+  transition: all 200ms;
+  
+  &:hover {
+    border: 2px solid $color-primary-white;
+    color: $color-primary-white;
+  }
 }
 
 .form-row-item-wrapper-1 {
@@ -262,6 +222,7 @@ textarea {
 
   margin: 0 auto;
   max-width: 1280px;
+  width: calc(100vw - 3em);
 
   margin-bottom: 112px;
 }
@@ -320,4 +281,21 @@ textarea {
 
   @include flex-column;
   gap: 36px;
+}
+
+@media screen and (max-width: 1300px) {
+  .contact-1-wrapper {  
+    max-width: 1280px;
+    width: calc(100vw - 3em);
+    
+    height: auto;
+  }
+
+  .contact-hero-bg {
+    width: 100%;
+  }
+
+  .curvy-bg {
+    display: none;
+  }
 }
