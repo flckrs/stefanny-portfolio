@@ -63,6 +63,7 @@ h1.case-study-header {
 
   margin: 0 auto;
   max-width: 1280px;
+  width: calc(100% - 3em);
 }
 
 .case-study-hero-filler {
@@ -191,6 +192,8 @@ h2 {
 
 .case-study-2-wrapper {
   max-width: 1280px;
+  width: calc(100% - 3em);
+
   margin: 0 auto;
 }
 
@@ -256,4 +259,74 @@ h3.case-section-title {
   margin-bottom: 88px;
 }
 
-/* Carousel */
+@media screen and (max-width: 1440px) {
+  .mockup-hero-bg {
+    max-width: 65vw;
+    height: auto;
+  
+    top: 50%;
+    transform: translateY(-50%) ;
+  }
+
+  .case-study-content-row-wrapper {
+    @include flex-column-left;
+    gap: 32px;
+  }
+
+  .case-study-content-wrapper {
+    gap: 12px;
+  
+    ul {
+      gap: 8px;
+    }
+  }
+
+  h1.case-study-header {
+    @include font-32-normal-700;
+    font-weight: 600;
+  }
+}
+
+@media screen and (max-width: 1076px) {
+  .mockup-hero-bg, .case-study-hero-filler {
+    display: none;
+  }
+
+  .case-study-1-wrapper {
+    @include flex-column;
+    width: calc(100% - 3em);
+  }
+  
+  .case-study-text-wrapper {
+    @include flex-column;
+
+    * {
+      @include flex-column;
+      text-align: center;
+    }
+  }
+
+  .case-study-content-wrapper {
+    ul {
+      @include flex-column;
+    }
+  }
+
+  .case-study-2-1-wrapper {
+    @include flex-column;
+    gap: 56px;
+  }
+
+  .project-background-wrapper {
+    max-width: 630px;
+  }
+
+  .what-i-did-pills-wrapper {
+    max-width: 630px;
+    justify-content: center;
+  }
+
+  .what-i-did {
+    @include flex-column;
+  }
+}
