@@ -215,12 +215,7 @@ h2 {
   @include flex-row;
   gap: 24px;
 
-  // padding: 71px 96px;
   position: relative;
-  // margin: 0 auto;
-  // left: 50%;
-  // top: 50%;
-  // transform: translate(-50%, -50%);
 }
 
 .background {
@@ -235,6 +230,35 @@ h2 {
   @include flex-column;
   margin-top: 167px;
   margin-bottom: 167px;
+}
+
+@media screen and (max-width: 1324px) {
+  .about-3-item-wrapper, .about-4-tools-dev-wrapper, .about-4-tools-design-wrapper {
+    max-width: fit-content;
+    justify-content: center;
+  }
+
+  .about-3-wrapper, .about-4-tools-dev, .about-4-tools-design, .about-4-wrapper {
+    @include flex-column;
+  }
+
+  .section-5-culture {
+    max-width: 1324px;
+    height: auto;
+
+    width: calc(100vw - 3em);
+  }  
+}
+
+@media screen and (max-width: 1106px) {
+  h3.tagline {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .about-6-wrapper {
+    gap: 12px;
+  }
 }
 
 @media screen and (max-width: 1050px) {
@@ -260,38 +284,6 @@ h2 {
   }
 }
 
-@media screen and (max-width: 685px) {
-  .about-1-content-wrapper-1 {
-    max-width: 685px;
-    width: calc(100vw - 3em);
-
-    br {
-      display: none;
-    }
-  }
-
-  .about-1-wrapper {
-    height: calc(60vh);
-  }
-}
-
-@media screen and (max-width: 1324px) {
-  .about-3-item-wrapper, .about-4-tools-dev-wrapper, .about-4-tools-design-wrapper {
-    max-width: fit-content;
-    justify-content: center;
-  }
-
-  .about-3-wrapper, .about-4-tools-dev, .about-4-tools-design, .about-4-wrapper {
-    @include flex-column;
-  }
-
-  .section-5-culture {
-    max-width: 1324px;
-    height: auto;
-
-    width: calc(100vw - 3em);
-  }  
-}
 
 @media screen and (max-width: 864px) {
   h2.about-3-values, h2.about-4-tools  {
@@ -307,6 +299,33 @@ h2 {
   .about-5-wrapper {
     height: min(543px);
   }
+
+  .about-6-wrapper {
+    @include flex-column;
+    gap: 32px;
+
+    padding: 36px;
+    border: 1px solid $color-dn-100;
+  }
+
+  .background {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 685px) {
+  .about-1-content-wrapper-1 {
+    max-width: 685px;
+    width: calc(100vw - 3em);
+
+    br {
+      display: none;
+    }
+  }
+
+  .about-1-wrapper {
+    height: calc(60vh);
+  }
 }
 
 @media screen and (max-width: 547px){
@@ -314,3 +333,4 @@ h2 {
     height: min(343px);
   }
 }
+
