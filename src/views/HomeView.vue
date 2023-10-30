@@ -39,11 +39,11 @@
   
       <section class="home-2">
         <div class="home-2-wrapper" id='home-2-wrapper'>
-          <img src="../assets/images/home/section2/image01.svg" alt="product design screenshot 1" class="home-2-product-image">
-          <img src="../assets/images/home/section2/image02.svg" alt="product design screenshot 2" class="home-2-product-image">
-          <img src="../assets/images/home/section2/image03.svg" alt="product design screenshot 3" class="home-2-product-image">
-          <img src="../assets/images/home/section2/image04.svg" alt="product design screenshot 4" class="home-2-product-image">
-          <img src="../assets/images/home/section2/image05.svg" alt="product design screenshot 5" class="home-2-product-image">
+          <img src="../assets/images/home/section2/image01.png" alt="product design screenshot 1" class="home-2-product-image">
+          <img src="../assets/images/home/section2/image04.png" alt="product design screenshot 2" class="home-2-product-image">
+          <img src="../assets/images/home/section2/image03.png" alt="product design screenshot 3" class="home-2-product-image">
+          <img src="../assets/images/home/section2/image02.png" alt="product design screenshot 4" class="home-2-product-image">
+          <img src="../assets/images/home/section2/image05.png" alt="product design screenshot 5" class="home-2-product-image">
         </div>
       </section>
 

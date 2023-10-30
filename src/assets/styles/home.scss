@@ -147,7 +147,6 @@ button.hire-me:active {
 }
 
 
-
 /* home-2 */
 .home-2-wrapper {
   @include flex-row;
@@ -168,6 +167,17 @@ button.hire-me:active {
 
 .home-2-wrapper.scrolled {
   transform: translateX(0);
+}
+
+img.home-2-product-image {
+  max-width: 638px;
+  max-height: auto;
+
+  &:hover {
+    transform: scale(1.155);
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0px 3.31486px 60.49622px 0px rgba(0, 0, 0, 0.35);
+  }
 }
 
 /* home-3 */

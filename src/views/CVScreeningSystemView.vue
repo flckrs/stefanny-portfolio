@@ -228,7 +228,7 @@
             <h2 class="case-section-title">Design Principles</h2>
             <p>Once I've chosen the features, defined solid foundation, and figured out how the product will work for users, the next step is to <b class="secondary-black">bring the product to life</b>. As I shape the design, a <b class="secondary-black">set of principles</b> is my North Star—they guide both major and minor design decisions. These principles play a crucial role in achieving the user experience I aim for in the product.
               <br> <br>
-            hese principles encompass anticipating user needs, minimizing cognitive load, adopting a modular system, purposeful use of color, prioritizing clarity, recognizing the importance of context, placing relevance first, and choosing the right wording for the right user.</p>
+            These principles encompass anticipating user needs, minimizing cognitive load, adopting a modular system, purposeful use of color, prioritizing clarity, recognizing the importance of context, placing relevance first, and choosing the right wording for the right user.</p>
           </div>
         </div>
 
