@@ -163,9 +163,7 @@ export default {
     },
 
     sendEmail() {
-      
-      //emailjs.sendForm('service_qw2cbdk', 'template_pvfkh2c', this.$refs.form, 'x3x9hxFt2_vABOWXd')
-      emailjs.sendForm('service_n65tg0n', 'template_va4lgvl', this.$refs.form, 'aQmHijM5780Nd66t2')
+      emailjs.sendForm(process.env.VUE_APP_SECRET, process.env.VUE_APP_SECRET_2, this.$refs.form, process.env.VUE_APP_SECRET_3)
 
         .then((result) => {
             console.log('SUCCESS!', result.text);
