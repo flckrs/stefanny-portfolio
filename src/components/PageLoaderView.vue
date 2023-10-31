@@ -176,9 +176,9 @@
 
   @media screen and (max-width: 842px) {
         .loader p {
-        top: 65%;
+        top: 60%;
         left: 50%;
-        transform: translate(-50%, -35%);
+        transform: translate(-50%, -40%);
 
         color: $color-primary-white;
     }
