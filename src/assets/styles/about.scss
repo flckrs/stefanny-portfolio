@@ -334,5 +334,19 @@ h2 {
   .about-5-wrapper {
     height: min(343px);
   }
+
+  .about-me-suggestion {
+    font-size: 0.875rem;
+  }
+
+  h1.about-me-role, .about-me-role span {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  } 
+
+  .about-me-explanation, .about-me-explanation span {
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+  }
 }
 
