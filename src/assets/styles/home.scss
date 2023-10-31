@@ -158,7 +158,7 @@ button.hire-me:active {
   justify-content: space-between;
   gap: clamp(1.5rem, 20px, 100rem);
 
-  width: 100vw;
+  max-width: 100vw;
   margin: 0 auto;
 
   padding-top: 96px;
@@ -497,6 +497,10 @@ img.home-2-product-image {
   display: none;
 } 
 
+.home-2-responsive-visible {
+  display: none;
+}
+
 /* HERO-IMAGE responsive */
 
 /*-----------------------------------------------------------------*/
@@ -733,6 +737,26 @@ img.home-2-product-image {
       text-align: center;
     }
   } 
+  
+  .home-2-responsive-hidden {
+    display: none;
+  }
+
+  .home-2-responsive-visible {
+    display: block;
+  }
+
+  .home-2-wrapper-responsive {  
+    max-width: 842px;
+    width: calc(100% - 3em);
+    margin: 0 auto;
+  
+    padding-top: 96px;
+  }
+
+  img.home-2-product-image-resp {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 423px) {

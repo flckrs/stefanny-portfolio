@@ -38,12 +38,16 @@
       </section>
   
       <section class="home-2">
-        <div class="home-2-wrapper" id='home-2-wrapper'>
+        <div class="home-2-wrapper home-2-responsive-hidden" id='home-2-wrapper'>
           <img src="../assets/images/home/section2/image01.png" alt="product design screenshot 1" class="home-2-product-image">
           <img src="../assets/images/home/section2/image04.png" alt="product design screenshot 2" class="home-2-product-image">
           <img src="../assets/images/home/section2/image03.png" alt="product design screenshot 3" class="home-2-product-image">
           <img src="../assets/images/home/section2/image02.png" alt="product design screenshot 4" class="home-2-product-image">
           <img src="../assets/images/home/section2/image05.png" alt="product design screenshot 5" class="home-2-product-image">
+        </div>
+
+        <div class="home-2-wrapper-responsive home-2-responsive-visible">
+          <img src="../assets/images/home/section2/image06.png" alt="product design screenshot 1" class="home-2-product-image-resp">
         </div>
       </section>
 
