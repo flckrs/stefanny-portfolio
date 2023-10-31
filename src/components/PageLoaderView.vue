@@ -174,6 +174,16 @@
       }
   }
 
+  @media screen and (max-width: 842px) {
+        .loader p {
+        top: 65%;
+        left: 50%;
+        transform: translate(-50%, -35%);
+
+        color: $color-primary-white;
+    }
+  }
+
 </style>
 
 <script>
