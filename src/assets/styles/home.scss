@@ -736,7 +736,22 @@ img.home-2-product-image {
 }
 
 @media screen and (max-width: 423px) {
+  .home-1-name {
+    font-size: 0.875rem;
+  }
+  
+  h1.hero {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+
+  p.hero-content {
+    font-size: 0.875rem;
+    line-height: 1.3125rem;
+  }
+
   .home-1-heroes-wrapper {
+    gap: 32px;
     max-width: 430px;
     width: calc(100vw - 4em);
   }
