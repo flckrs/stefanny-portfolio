@@ -1,5 +1,7 @@
 <template>
   <div id="app">
+    <PageLoader />
+
     <router-view/>
   </div>
 </template>
@@ -11,3 +13,17 @@
 
   @import '@/assets/styles/app.scss';
 </style>
+
+<script>
+import PageLoader from '@/components/PageLoaderView.vue';
+
+export default {
+  components: {
+    PageLoader,
+  },
+  methods: {
+
+  },
+}
+
+</script>
