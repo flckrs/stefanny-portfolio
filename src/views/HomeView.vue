@@ -58,7 +58,7 @@
           <div class="home-3-item-wrapper">
             <div class="home-3-item">
               <lord-icon
-                src="https://cdn.lordicon.com/zopinftn.json"
+                src="https://cdn.lordicon.com/jdsvypqr.json"
                 trigger="loop"
                 delay="1250"
                 colors="primary:#f7f7ff,secondary:#ffba49"
@@ -76,7 +76,7 @@
 
             <div class="home-3-item gap-1-line">
               <lord-icon
-                src="https://cdn.lordicon.com/kyujflem.json"
+                src="https://cdn.lordicon.com/gyynjgtu.json"
                 trigger="loop"
                 delay="1250"
                 colors="primary:#f7f7ff,secondary:#ffba49"
@@ -93,7 +93,7 @@
 
             <div class="home-3-item">
               <lord-icon
-                src="https://cdn.lordicon.com/yafmbxkd.json"
+                src="https://cdn.lordicon.com/kqvibaec.json"
                 trigger="loop"
                 delay="1250"
                 colors="primary:#f7f7ff,secondary:#ffba49"
